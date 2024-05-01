@@ -135,7 +135,7 @@ webpackJsonp(
                 x: 0.5,
                 y: h ? 0.7 : 0.5,
                 isStatic: !1,
-                scale: 0.175,
+                scale: 0.23,
                 label: 'Plate Middle',
                 sprite: n(397),
                 pathData: '1023.4 4.8 1023.4 132 0.5 132 0.5 0.5 1023.4 0.5',
