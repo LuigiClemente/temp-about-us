@@ -135,7 +135,7 @@ webpackJsonp(
                 x: 0.5,
                 y: h ? 0.7 : 0.5,
                 isStatic: !1,
-                scale: 0.6,
+                scale: 0.175,
                 label: 'Plate Middle',
                 sprite: n(397),
                 pathData: '1023.4 4.8 1023.4 132 0.5 132 0.5 0.5 1023.4 0.5',
@@ -169,10 +169,10 @@ webpackJsonp(
             foodConfig: {
               night: [
                 {
-                  label: 'Duck',
-                  width: 610,
-                  height: 366,
-                  scale: 1.2,
+                  label: 'Chicken',
+                  width: 210,
+                  height: 66,
+                  scale: 1.4,
                   sprite: n(413),
                   pathData: '607 30 487 262 281 360 43 329 2 207 33 134 237 9 425 9 501 89 594 9',
                 },
@@ -201,7 +201,7 @@ webpackJsonp(
                   pathData: '155 7 326 155 384 178 384 214 298 253 3 184 46 89 114 89',
                 },
                 {
-                  label: 'tartare',
+                  label: 'egg',
                   width: 412,
                   height: 284,
                   scale: 1,
@@ -209,10 +209,10 @@ webpackJsonp(
                   pathData: '212 5 360 32 405 91 405 201 360 251 251 279 132 273 47 237 4 185 4 97 61 44',
                 },
                 {
-                  label: 'icecream',
+                  label: 'sushi',
                   width: 262,
                   height: 232,
-                  scale: 1,
+                  scale: 1.5,
                   sprite: n(415),
                   pathData: '145 3 208 19 259 154 125 226 24 226 5 194 24 115 62 45',
                 },
@@ -225,7 +225,7 @@ webpackJsonp(
                   pathData: '281 18 351 92 323 194 55 174 43 87 112 23',
                 },
                 {
-                  label: 'mushrooms',
+                  label: 'asparagus',
                   width: 312,
                   height: 179,
                   scale: 1,
@@ -241,7 +241,7 @@ webpackJsonp(
                   pathData: '490 22 179 313 70 335 2 212 92 121 194 149 274 134 449 2',
                 },
                 {
-                  label: 'chantilly',
+                  label: 'tomato',
                   width: 338,
                   height: 374,
                   scale: 1,
@@ -249,7 +249,7 @@ webpackJsonp(
                   pathData: '139 2 150 72 264 109 325 206 300 222 295 314 198 366 120 366 41 335 10 147 41 65',
                 },
                 {
-                  label: 'scallop',
+                  label: 'oyster',
                   width: 478,
                   height: 303,
                   scale: 0.8,
@@ -265,7 +265,7 @@ webpackJsonp(
                   pathData: '128 4 296 112 365 273 218 416 8 255 8 105',
                 },
                 {
-                  label: 'onion-rings',
+                  label: 'mushroom',
                   width: 386,
                   height: 199,
                   scale: 1,
@@ -273,7 +273,7 @@ webpackJsonp(
                   pathData: '155 1 341 40 378 102 341 171 92 194 8 146 8 72',
                 },
                 {
-                  label: 'oyster',
+                  label: 'potato',
                   width: 605,
                   height: 290,
                   scale: 0.7,
@@ -284,7 +284,7 @@ webpackJsonp(
                   label: 'prawn',
                   width: 354,
                   height: 294,
-                  scale: 1,
+                  scale: 0.8,
                   sprite: n(420),
                   pathData: '214 16 344 166 273 275 141 287 46 243 1 135 46 36 141 1',
                 },
@@ -927,16 +927,16 @@ webpackJsonp(
       e.exports = '../foods/scone-2.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/plate-bottom.webp'
+      e.exports = '../foods-2/cutting-board.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/plate-mid.webp'
+      e.exports = '../foods-2/cutting-board.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/plate-top.webp'
+      e.exports = '../foods-2/cutting-board.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/cauliflower.webp'
+      e.exports = '../foods-2/ham.webp'
     },
     function (e, t, n) {
       e.exports = '../foods/chives.webp'
@@ -955,52 +955,52 @@ webpackJsonp(
     function (e, t, n) {
     },
     function (e, t, n) {
-      e.exports = '../foods/acc-01.webp'
+      e.exports = '../foods-2/bread.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/acc-02.webp'
+      e.exports = '../foods-2/broccoli.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/acc-03.webp'
+      e.exports = '../foods-2/onion.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/acc-04.webp'
+      e.exports = '../foods-2/bread.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/cauliflower.webp'
+      e.exports = '../foods-2/ham.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/chantilly.webp'
+      e.exports = '../foods-2/tomato.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/duck.webp'
+      e.exports = '../foods-2/chicken.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/foie-gras.webp'
+      e.exports = '../foods-2/brussel_sprouts.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/icecream.webp'
+      e.exports = '../foods-2/sushi.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/lamb.webp'
+      e.exports = '../foods-2/lamb.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/mushrooms.webp'
+      e.exports = '../foods-2/asparagus.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/onion-rings.webp'
+      e.exports = '../foods-2/mushroom.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/oyster.webp'
+      e.exports = '../foods-2/oyster.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/prawn.webp'
+      e.exports = '../foods-2/prawn.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/scallop.webp'
+      e.exports = '../foods-2/potato.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods/tartare.webp'
+      e.exports = '../foods-2/egg.webp'
     },,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
     function (e, t, n) {
     },,
