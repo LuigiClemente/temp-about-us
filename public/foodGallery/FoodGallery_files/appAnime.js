@@ -135,7 +135,7 @@ webpackJsonp(
                 x: 0.5,
                 y: h ? 0.7 : 0.5,
                 isStatic: !1,
-                scale: 0.23,
+                scale: 0.6,                
                 label: 'Plate Middle',
                 sprite: n(397),
                 pathData: '1023.4 4.8 1023.4 132 0.5 132 0.5 0.5 1023.4 0.5',
@@ -172,15 +172,15 @@ webpackJsonp(
                   label: 'Chicken',
                   width: 210,
                   height: 66,
-                  scale: 1.4,
+                  scale: 3,
                   sprite: n(413),
-                  pathData: '607 30 487 262 281 360 43 329 2 207 33 134 237 9 425 9 501 89 594 9',
+                  pathData: '139 2 150 72 264 109 325 206 300 222 295 314 198 366 120 366 41 335 10 147 41 65',
                 },
                 {
-                  label: 'Foiegras',
+                  label: 'brussel_sprouts',
                   width: 255,
                   height: 214,
-                  scale: 1,
+                  scale: 0.6,
                   sprite: n(414),
                   pathData: '169 2 250 49 250 168 89 211 11 155 4 39',
                 },
@@ -193,10 +193,10 @@ webpackJsonp(
                   pathData: '95 2 197 51 197 153 110 204 10 153 5 51',
                 },
                 {
-                  label: 'Acc02',
+                  label: 'broccoli',
                   width: 391,
                   height: 257,
-                  scale: 1.2,
+                  scale: 1.4,
                   sprite: n(408),
                   pathData: '155 7 326 155 384 178 384 214 298 253 3 184 46 89 114 89',
                 },
@@ -204,7 +204,7 @@ webpackJsonp(
                   label: 'egg',
                   width: 412,
                   height: 284,
-                  scale: 1,
+                  scale: 2,
                   sprite: n(422),
                   pathData: '212 5 360 32 405 91 405 201 360 251 251 279 132 273 47 237 4 185 4 97 61 44',
                 },
@@ -214,13 +214,14 @@ webpackJsonp(
                   height: 232,
                   scale: 1.3,
                   sprite: n(415),
-                  pathData: '145 3 208 19 259 154 125 226 24 226 5 194 24 115 62 45',
+                  pathData: '281 18 351 92 323 194 55 174 43 87 112 23',
+
                 },
                 {
-                  label: 'acc01',
+                  label: 'bread',
                   width: 383,
                   height: 257,
-                  scale: 1,
+                  scale: 2.4,
                   sprite: n(407),
                   pathData: '281 18 351 92 323 194 55 174 43 87 112 23',
                 },
@@ -228,7 +229,7 @@ webpackJsonp(
                   label: 'asparagus',
                   width: 312,
                   height: 179,
-                  scale: 1,
+                  scale: 0.7,
                   sprite: n(417),
                   pathData: '136 7 202 24 244 108 305 115 289 144 226 144 190 171 118 158 7 66',
                 },
@@ -252,15 +253,15 @@ webpackJsonp(
                   label: 'potato',
                   width: 478,
                   height: 303,
-                  scale: 1,
+                  scale: 1.3,
                   sprite: n(421),
                   pathData: '197 1 387 57 471 147 444 237 380 274 152 298 15 211 43 179 36 52 111 15',
                 },
                 {
-                  label: 'Cauliflower',
+                  label: 'ham',
                   width: 371,
                   height: 419,
-                  scale: 1.2,
+                  scale: 1.6,
                   sprite: n(411),
                   pathData: '128 4 296 112 365 273 218 416 8 255 8 105',
                 },
@@ -286,13 +287,13 @@ webpackJsonp(
                   height: 294,
                   scale: 0.8,
                   sprite: n(420),
-                  pathData: '214 16 344 166 273 275 141 287 46 243 1 135 46 36 141 1',
+                  pathData: '139 2 150 72 264 109 325 206 300 222 295 314 198 366 120 366 41 335 10 147 41 65',
                 },
                 {
-                  label: 'acc04',
+                  label: 'lobster',
                   width: 394,
                   height: 339,
-                  scale: 1,
+                  scale: 1.7,
                   sprite: n(410),
                   pathData: '202 3 314 28 392 106 368 253 214 335 111 323 22 253 5 116 84 36',
                 },
@@ -927,13 +928,13 @@ webpackJsonp(
       e.exports = '../foods/scone-2.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods-2/cutting-board.webp'
+      e.exports = '../foods/plate-top.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods-2/cutting-board.webp'
+      e.exports = '../foods/plate-mid.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods-2/cutting-board.webp'
+      e.exports = '../foods/plate-bottom.webp'
     },
     function (e, t, n) {
       e.exports = '../foods-2/ham.webp'
@@ -964,7 +965,7 @@ webpackJsonp(
       e.exports = '../foods-2/onion.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods-2/bread.webp'
+      e.exports = '../foods-2/lobster.webp'
     },
     function (e, t, n) {
       e.exports = '../foods-2/ham.webp'
@@ -988,7 +989,7 @@ webpackJsonp(
       e.exports = '../foods-2/asparagus.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods-2/mushroom.webp'
+      e.exports = '../foods-2/sushi-2.webp'
     },
     function (e, t, n) {
       e.exports = '../foods-2/oyster.webp'
