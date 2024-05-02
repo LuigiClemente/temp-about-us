@@ -295,7 +295,7 @@ webpackJsonp(
                   height: 339,
                   scale: 2.4,
                   sprite: n(410),
-                  pathData: '169 2 250 49 250 168 89 211 11 155 4 39',
+                  pathData: '136 7 202 24 244 108 305 115 289 144 226 144 190 171 118 158 7 66',
                 },
               ],
               nightOld: [
@@ -980,7 +980,7 @@ webpackJsonp(
       e.exports = '../foods-2/brussel_sprouts.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods-2/sushi.webp'
+      e.exports = '../foods-2/lamb.webp'
     },
     function (e, t, n) {
       e.exports = '../foods-2/lamb.webp'
