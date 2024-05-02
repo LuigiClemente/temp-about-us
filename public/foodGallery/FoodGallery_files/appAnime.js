@@ -212,7 +212,7 @@ webpackJsonp(
                   label: 'sushi',
                   width: 262,
                   height: 232,
-                  scale: 1.3,
+                  scale: 1.1,
                   sprite: n(415),
                   pathData: '281 18 351 92 323 194 55 174 43 87 112 23',
 
@@ -266,10 +266,10 @@ webpackJsonp(
                   pathData: '128 4 296 112 365 273 218 416 8 255 8 105',
                 },
                 {
-                  label: 'mushroom',
+                  label: 'sushi-2',
                   width: 386,
                   height: 199,
-                  scale: 1,
+                  scale: 0.65,
                   sprite: n(418),
                   pathData: '155 1 341 40 378 102 341 171 92 194 8 146 8 72',
                 },
