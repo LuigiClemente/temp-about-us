@@ -237,7 +237,7 @@ webpackJsonp(
                   label: 'lamb',
                   width: 494,
                   height: 340,
-                  scale: 1,
+                  scale: 1.2,
                   sprite: n(416),
                   pathData: '490 22 179 313 70 335 2 212 92 121 194 149 274 134 449 2',
                 },
