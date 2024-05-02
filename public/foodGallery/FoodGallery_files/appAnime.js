@@ -174,7 +174,7 @@ webpackJsonp(
                   height: 66,
                   scale: 3,
                   sprite: n(413),
-                  pathData: '139 2 150 72 264 109 325 206 300 222 295 314 198 366 120 366 41 335 10 147 41 65',
+                  pathData: '169 2 250 49 250 168 89 211 11 155 4 39',
                 },
                 {
                   label: 'brussel_sprouts',
@@ -204,24 +204,24 @@ webpackJsonp(
                   label: 'egg',
                   width: 412,
                   height: 284,
-                  scale: 2,
+                  scale: 1.7,
                   sprite: n(422),
-                  pathData: '212 5 360 32 405 91 405 201 360 251 251 279 132 273 47 237 4 185 4 97 61 44',
+                  pathData: '169 2 250 49 250 168 89 211 11 155 4 39',
                 },
                 {
-                  label: 'sushi',
-                  width: 262,
-                  height: 232,
-                  scale: 1.1,
+                  label: 'sushi-2',
+                  width: 162,
+                  height: 132,
+                  scale: 1.3,
                   sprite: n(415),
-                  pathData: '281 18 351 92 323 194 55 174 43 87 112 23',
+                  pathData: '169 2 250 49 250 168 89 211 11 155 4 39',
 
                 },
                 {
                   label: 'bread',
                   width: 383,
                   height: 257,
-                  scale: 2.4,
+                  scale: 1.8,
                   sprite: n(407),
                   pathData: '281 18 351 92 323 194 55 174 43 87 112 23',
                 },
@@ -237,7 +237,7 @@ webpackJsonp(
                   label: 'lamb',
                   width: 494,
                   height: 340,
-                  scale: 1.2,
+                  scale: 1.3,
                   sprite: n(416),
                   pathData: '490 22 179 313 70 335 2 212 92 121 194 149 274 134 449 2',
                 },
@@ -263,13 +263,13 @@ webpackJsonp(
                   height: 419,
                   scale: 1.6,
                   sprite: n(411),
-                  pathData: '128 4 296 112 365 273 218 416 8 255 8 105',
+                  pathData: '169 2 250 49 250 168 89 211 11 155 4 39',
                 },
                 {
-                  label: 'sushi-2',
+                  label: 'sushi',
                   width: 386,
                   height: 199,
-                  scale: 0.65,
+                  scale: 0.6,
                   sprite: n(418),
                   pathData: '155 1 341 40 378 102 341 171 92 194 8 146 8 72',
                 },
@@ -293,9 +293,9 @@ webpackJsonp(
                   label: 'lobster',
                   width: 394,
                   height: 339,
-                  scale: 1.7,
+                  scale: 2.4,
                   sprite: n(410),
-                  pathData: '202 3 314 28 392 106 368 253 214 335 111 323 22 253 5 116 84 36',
+                  pathData: '169 2 250 49 250 168 89 211 11 155 4 39',
                 },
               ],
               nightOld: [
@@ -989,7 +989,7 @@ webpackJsonp(
       e.exports = '../foods-2/asparagus.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods-2/sushi-2.webp'
+      e.exports = '../foods-2/sushi.webp'
     },
     function (e, t, n) {
       e.exports = '../foods-2/oyster.webp'
