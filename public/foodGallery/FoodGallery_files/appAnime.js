@@ -282,7 +282,7 @@ webpackJsonp(
                   pathData: '187 19 594 133 538 239 342 286 173 273 9 133 82 32',
                 },
                 {
-                  label: 'prawn',
+                  label: 'shrimp-2',
                   width: 354,
                   height: 294,
                   scale: 0.8,
@@ -995,7 +995,7 @@ webpackJsonp(
       e.exports = '../foods-2/oyster.webp'
     },
     function (e, t, n) {
-      e.exports = '../foods-2/prawn.webp'
+      e.exports = '../foods-2/shrimp-2.webp'
     },
     function (e, t, n) {
       e.exports = '../foods-2/potato.webp'
