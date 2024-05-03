@@ -35,7 +35,7 @@ const IframeFood = () => {
   // Render the component UI
   return (
     <>
-      {showAnimation && (
+      {/* {showAnimation && ( */}
         <div className="w-full h-full z-50">
           <iframe
             id="food-iframe"
@@ -61,7 +61,7 @@ const IframeFood = () => {
             <ToggleAnimationButton showAnimation={showAnimation} toggleAnimation={() => setShowAnimation(!showAnimation)} />
           )}
         </div>
-      )}
+      {/* )} */}
       {!isDesktopOrLaptop && !showAnimation && (
         <MobileView toggleAnimation={() => setShowAnimation(!showAnimation)} />
       )}
