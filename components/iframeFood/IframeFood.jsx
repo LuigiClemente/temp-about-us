@@ -1,3 +1,4 @@
+"use client";
 // Import necessary hooks and utilities from React and additional libraries
 import React, { useEffect, useRef, useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
@@ -32,25 +33,30 @@ const IframeFood = () => {
     }
   }, [isDesktopOrLaptop]); // Dependency array to re-run the effect only when isDesktopOrLaptop changes
 
+  const iframeSrc = typeof window !== "undefined" ? `${window.origin}/foodGallery/FoodGallery.htm` : '';
+
   // Render the component UI
   return (
     <>
       {/* {showAnimation && ( */}
-        <div className="w-full h-full z-50">
-          <iframe
-            id="food-iframe"
-            src={`${window.origin}/foodGallery/FoodGallery.htm`}
-            scrolling="yes"
-            frameBorder="0"
-            allowFullScreen={true}
-            allow="autoplay; fullscreen"
-            style={{  }}
-            width="100%"
-            ref={pageRef}
-            height={size.height}
-            onLoad={() => setLoad(true)} // Directly update load state on load
-            loading="lazy"
-          />
+        <div className="w-full h-full z-50"> 
+
+        <iframe
+  id="food-iframe"
+  src={iframeSrc}
+  scrolling="yes"
+  frameBorder="0"
+  allowFullScreen={true}
+  allow="autoplay; fullscreen"
+  style={{ }}
+  width="100%"
+  ref={pageRef}
+  height={size.height}
+  onLoad={() => setLoad(true)} // Directly update load state on load
+  loading="lazy"
+/>
+
+         
 
           {!isDesktopOrLaptop && (
             <ToggleAnimationButton showAnimation={showAnimation} toggleAnimation={() => setShowAnimation(!showAnimation)} />
