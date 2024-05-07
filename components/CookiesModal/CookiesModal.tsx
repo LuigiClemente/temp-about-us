@@ -46,7 +46,7 @@ const CookiesModal = ({modalIsOpen , setModalIsOpen , cookiesData }:any) => {
       onRequestClose={closeModal}
       contentLabel="Welcome Modal"
       className="CookieModal relative"
-      overlayClassName="CookieOverlay"
+      overlayClassName="CookieOverlay" 
     >
          <script
     type="application/ld+json"
