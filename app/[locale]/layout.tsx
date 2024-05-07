@@ -1,7 +1,6 @@
-import 'css/tailwind.css';
-import 'css/extractedStyles.css';
-import 'css/globals.css';
-
+import 'css/tailwind.css'
+import 'css/extractedStyles.css'
+import 'css/globals.css'
 
 import 'pliny/search/algolia.css'
 
@@ -10,14 +9,14 @@ import { Analytics, AnalyticsConfig } from 'pliny/analytics'
 import { SearchProvider, SearchConfig } from 'pliny/search'
 import Header from '@/components/Header'
 import SectionContainer from '@/components/SectionContainer'
-import siteMetadata from '@/data/siteMetadata' 
+import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
-import { Navigation } from '@/components/Navigation';
-import { useState } from 'react';
-import { NextIntlClientProvider, useMessages } from "next-intl";
-import ClientLayout from './ClientLayout';
-import { Cookies, allCookies } from 'contentlayer/generated';
+import { Navigation } from '@/components/Navigation'
+import { useState } from 'react'
+import { NextIntlClientProvider, useMessages } from 'next-intl'
+import ClientLayout from './ClientLayout'
+import { Cookies, allCookies } from 'contentlayer/generated'
 
 const space_grotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -25,19 +24,18 @@ const space_grotesk = Space_Grotesk({
   variable: '--font-space-grotesk',
 })
 
-
 export default function RootLayout({
   children,
-  params: {locale}
+  params: { locale },
 }: {
-  children: React.ReactNode;
-  params: {locale: string};
+  children: React.ReactNode
+  params: { locale: string }
 }) {
-    const cookies = allCookies.find((p) => p._id.includes(locale)) as Cookies
+  const cookies = allCookies.find((p) => p._id.includes(locale)) as Cookies
 
-    const jsonLd = cookies.structuredData
- 
-  const messages = useMessages();
+  const jsonLd = cookies?.structuredData
+
+  const messages = useMessages()
   return (
     <html
       lang={siteMetadata.language}
@@ -53,15 +51,11 @@ export default function RootLayout({
       <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <body className="bg-white  text-black antialiased dark:bg-gray-950 dark:text-white">
-      <NextIntlClientProvider locale={locale} messages={messages}>
-          
-        <ThemeProviders>
-         <ClientLayout cookiesData={{cookies , jsonLd}}>
-          {children}
-         </ClientLayout>
-        </ThemeProviders>
-
+      <body className="min-h-screen  bg-white text-black antialiased dark:bg-gray-950 ">
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <ThemeProviders>
+            <ClientLayout cookiesData={{ cookies, jsonLd }}>{children}</ClientLayout>
+          </ThemeProviders>
         </NextIntlClientProvider>
       </body>
     </html>
