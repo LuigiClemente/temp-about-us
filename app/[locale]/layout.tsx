@@ -15,7 +15,6 @@ import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
 import { Navigation } from '@/components/Navigation';
 import { useState } from 'react';
-import Footer from '@/components/Footer/Footer';
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import ClientLayout from './ClientLayout';
 import { Cookies, allCookies } from 'contentlayer/generated';

@@ -1,6 +1,5 @@
 'use client';
 
-import Footer from '@/components/Footer/Footer';
 import { Navigation } from '@/components/Navigation';
 import SectionContainer from '@/components/SectionContainer';
 import siteMetadata from '@/data/siteMetadata';
