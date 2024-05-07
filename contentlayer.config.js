@@ -25,7 +25,7 @@ import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer.js'
 const root = process.cwd()
 const isProduction = process.env.NODE_ENV === 'production'
 
-const computedFields: ComputedFields = {
+const computedFields = {
   readingTime: { type: 'json', resolve: (doc) => readingTime(doc.body.raw) },
   slug: {
     type: 'string',
@@ -41,8 +41,6 @@ const computedFields: ComputedFields = {
   },
   toc: { type: 'string', resolve: (doc) => extractTocHeadings(doc.body.raw) },
 }
-
-
 
 function createSearchIndex(allBlogs) {
   if (
@@ -73,7 +71,7 @@ export const Blog = defineDocumentType(() => ({
     layout: { type: 'string' },
     bibliography: { type: 'string' },
     canonicalUrl: { type: 'string' },
-    key : {type : 'string' , required : true }
+    key: { type: 'string', required: true },
   },
   computedFields: {
     ...computedFields,
@@ -93,15 +91,11 @@ export const Blog = defineDocumentType(() => ({
   },
 }))
 
- 
-
 export const PrivacyPolicy = defineDocumentType(() => ({
   name: 'PrivacyPolicy',
   filePathPattern: 'privacy/*.mdx',
   contentType: 'mdx',
-  fields: {
-   
-  },
+  fields: {},
   computedFields: {
     ...computedFields,
     structuredData: {
@@ -109,7 +103,6 @@ export const PrivacyPolicy = defineDocumentType(() => ({
       resolve: (doc) => ({
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
-     
       }),
     },
   },
@@ -119,9 +112,7 @@ export const Cookies = defineDocumentType(() => ({
   name: 'Cookies',
   filePathPattern: 'cookies/*.mdx',
   contentType: 'mdx',
-  fields: {
-   
-  },
+  fields: {},
   computedFields: {
     ...computedFields,
     structuredData: {
@@ -129,7 +120,6 @@ export const Cookies = defineDocumentType(() => ({
       resolve: (doc) => ({
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
-     
       }),
     },
   },
@@ -143,12 +133,11 @@ export const CaseStudy = defineDocumentType(() => ({
     title: { type: 'string', required: true },
     date: { type: 'date', required: true },
     summary: { type: 'string' },
-    key : {type : 'string' , required : true },
-    url : {type : 'string' , required : true }
-
+    key: { type: 'string', required: true },
+    url: { type: 'string', required: true },
   },
   computedFields: {
-        ...computedFields,
+    ...computedFields,
     structuredData: {
       type: 'json',
       resolve: (doc) => ({
@@ -156,19 +145,16 @@ export const CaseStudy = defineDocumentType(() => ({
         '@type': 'BlogPosting',
         headline: doc.title,
         datePublished: doc.date,
-  
+
         description: doc.summary,
-      
       }),
     },
   },
 }))
 
-
-
 export default makeSource({
   contentDirPath: 'data',
-  documentTypes: [Blog , CaseStudy , PrivacyPolicy , Cookies],
+  documentTypes: [Blog, CaseStudy, PrivacyPolicy, Cookies],
   mdx: {
     cwd: process.cwd(),
     remarkPlugins: [
@@ -181,7 +167,7 @@ export default makeSource({
     ],
     rehypePlugins: [
       rehypeSlug,
-      rehypeAutolinkHeadings, 
+      rehypeAutolinkHeadings,
       rehypeKatex,
       [rehypeCitation, { path: path.join(root, 'data') }],
       [rehypePrismPlus, { defaultLanguage: 'js', ignoreMissing: true }],
@@ -189,7 +175,7 @@ export default makeSource({
     ],
   },
   onSuccess: async (importData) => {
-    const { allBlogs } = await importData();
+    const { allBlogs } = await importData()
     createSearchIndex(allBlogs)
   },
 })
