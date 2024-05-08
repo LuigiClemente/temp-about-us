@@ -21,23 +21,18 @@ const postDateTemplate: Intl.DateTimeFormatOptions = {
   day: 'numeric',
 }
 
-
-export default function SimpleLayout({children}:any) {
-
+export default function SimpleLayout({ children }: any) {
   return (
     <SectionContainer>
-      <ScrollTopAndComment />
-      <article className='custom-container-sm'>
+      {/* <ScrollTopAndComment /> */}
+      <article className="custom-container-sm">
         <div className="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
-       
-           
-            <div className="  divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
-              <div className="prose max-w-none pb-8 pt-10 dark:prose-invert text-data-sizes">{children}</div>
-            
+          <div className="  divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
+            <div className="text-data-sizes prose max-w-none pb-8 pt-10 dark:prose-invert">
+              {children}
             </div>
-           
           </div>
-      
+        </div>
       </article>
     </SectionContainer>
   )

@@ -7,25 +7,26 @@ const ScrollTopAndComment = () => {
 
   useEffect(() => {
     const handleWindowScroll = () => {
+      console.log(document.querySelector('.ReactModal__Content'))
       if (window.scrollY > 50) setShow(true)
       else setShow(false)
     }
 
-    window.addEventListener('scroll', handleWindowScroll)
-    return () => window.removeEventListener('scroll', handleWindowScroll)
+    document.querySelector('.ReactModal__Content')?.addEventListener('scroll', handleWindowScroll)
+    return () =>
+      document
+        .querySelector('.ReactModal__Content')
+        ?.removeEventListener('scroll', handleWindowScroll)
   }, [])
 
   const handleScrollTop = () => {
-    window.scrollTo({ top: 0 })
+    document.querySelector('.ReactModal__Content')?.scrollTo({ top: 0, behavior: 'smooth' })
   }
   const handleScrollToComment = () => {
     document.getElementById('comment')?.scrollIntoView()
   }
   return (
-    <div
-      className={`fixed z-50 bottom-8 right-8 hidden flex-col gap-3 ${show ? 'md:flex' : 'md:hidden'}`}
-    >
-     
+    <div className={`fixed bottom-8 right-8 z-50 flex flex-col gap-3 `}>
       <button
         aria-label="Scroll To Top"
         onClick={handleScrollTop}
