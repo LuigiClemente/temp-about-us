@@ -45,7 +45,7 @@ export const Navigation = ({
   const router = useRouter()
   const pathName = usePathname()
   const [selectedLanguage, setSelectedLanguage] = useState(localActive)
-  const [openModal, setOpenModal] = useState(false)
+  const [openModal, setOpenModal] = useState(true)
   const changeLanguage = (newLocale) => {
     let newPathName = pathName
     if (pathName.includes('/blog/')) {
@@ -84,19 +84,6 @@ export const Navigation = ({
         </div>
 
         <div className="pointer-events-auto flex items-center  gap-10 ">
-          <div
-            className="transition-all duration-200 hover:scale-[1.15]"
-            onClick={() => setOpenModal(true)}
-          >
-            <Image
-              alt="info"
-              src={'/assets/images/information.svg'}
-              height={47}
-              width={50}
-              className="h-[35px] w-auto cursor-pointer md:h-[40px]"
-            ></Image>
-            {/* <CiCircleInfo className='text-[35px] md:text-[47px] cursor-pointer' /> */}
-          </div>
           {!openModal && (
             <>
               <Popover
@@ -130,7 +117,7 @@ export const Navigation = ({
                 )}
               >
                 <div
-                  className={`lang-btn relative -translate-y-[2px] cursor-pointer ${isLangBtnHovered ? 'hovered' : ''}`}
+                  className={`lang-btn relative  cursor-pointer ${isLangBtnHovered ? 'hovered' : ''}`}
                   onClick={() => setLangOpen(!langOpen)}
                 >
                   <div
@@ -203,8 +190,14 @@ export const Navigation = ({
                 </div>
               </div>
 
-              <ul className="navigation__list">
-                <li className="navigation__item">
+              <ul className="navigation__list select-none">
+                <li
+                  className="navigation__item"
+                  onClick={() => {
+                    setNavOpen(false)
+                    setOpenModal(true)
+                  }}
+                >
                   <a href="#" className="navigation__link">
                     About Natous
                   </a>
@@ -234,7 +227,7 @@ export const Navigation = ({
           </div>
         </div>
       </nav>
-      {openModal && <ScrollTopAndComment></ScrollTopAndComment>}
+      {/* {openModal && <ScrollTopAndComment></ScrollTopAndComment>} */}
     </>
   )
 }
