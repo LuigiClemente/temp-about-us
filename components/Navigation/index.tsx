@@ -11,7 +11,7 @@ import { Popover } from 'react-tiny-popover'
 import { languages, locales } from '../../utils/languages'
 // import { useLocale } from "next-intl";
 // import { useParams, usePathname, useRouter } from "next/navigation";
-import { useLocale } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import Modal from 'react-responsive-modal'
 import CookiesModal from '../CookiesModal/CookiesModal'
 import ScrollTopAndComment from '../ScrollTopAndComment'
@@ -42,6 +42,7 @@ export const Navigation = ({
   const [isPending, startTransition] = useTransition()
   const { Link, useRouter, usePathname, redirect } = createSharedPathnamesNavigation({ locales })
   const localActive = useLocale()
+  const t = useTranslations('Index')
   const router = useRouter()
   const pathName = usePathname()
   const [selectedLanguage, setSelectedLanguage] = useState(localActive)
@@ -189,38 +190,40 @@ export const Navigation = ({
                   </button>
                 </div>
               </div>
-
-              <ul className="navigation__list select-none">
+              <ul className="navigation__list">
+                <li className="navigation__item">
+                  <Link href="/" className="navigation__link">
+                    {t('Home')}
+                  </Link>
+                </li>
                 <li
-                  className="navigation__item"
+                  className="navigation__item cursor-pointer"
                   onClick={() => {
                     setNavOpen(false)
                     setOpenModal(true)
                   }}
                 >
-                  <a href="#" className="navigation__link">
-                    About Natous
-                  </a>
+                  <span className="navigation__link">{t('About_Us')}</span>
                 </li>
                 <li className="navigation__item">
-                  <a href="#" className="navigation__link">
-                    Your benfits
-                  </a>
+                  <Link href="/case-studies" className="navigation__link">
+                    {t('Our_Studies')}
+                  </Link>
                 </li>
                 <li className="navigation__item">
-                  <a href="#" className="navigation__link">
-                    Popular tours
-                  </a>
+                  <Link href="/blog" className="navigation__link">
+                    {t('Terms_of_Service')}
+                  </Link>
                 </li>
                 <li className="navigation__item">
-                  <a href="#" className="navigation__link">
-                    Stories
-                  </a>
+                  <Link href="/cookies" className="navigation__link">
+                    {t('Cookies_Policy')}
+                  </Link>
                 </li>
                 <li className="navigation__item">
-                  <a href="#" className="navigation__link">
-                    Book now
-                  </a>
+                  <Link href="/privacy-policy" className="navigation__link">
+                    {t('Privacy_Policy')}
+                  </Link>
                 </li>
               </ul>
             </nav>
