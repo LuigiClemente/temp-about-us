@@ -792,11 +792,11 @@ footer input:-webkit-autofill:active {
 }
 
 .prose :where(a):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
-  color: #2ae8d3;
+  color: #2ae8d3 !important;
 }
 
 .prose :where(a):not(:where([class~='not-prose'], [class~='not-prose'] *)):hover {
-  color: #f8e43f;
+  color: #f8e43f !important;
 }
 
 .green-color {

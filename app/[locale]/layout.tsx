@@ -31,8 +31,13 @@ export default function RootLayout({
   children: React.ReactNode
   params: { locale: string }
 }) {
-  const cookies = allCookies.find((p) => p._id.includes(locale)) as Cookies
-
+  const cookies = allCookies.find((p) => {
+    console.log({
+      id: p._id,
+      local: locale,
+    })
+    return p._id.split('/')[1].includes(locale)
+  }) as Cookies
   const jsonLd = cookies?.structuredData
 
   const messages = useMessages()
