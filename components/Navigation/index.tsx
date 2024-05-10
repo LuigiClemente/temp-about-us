@@ -190,41 +190,25 @@ export const Navigation = ({
                   </button>
                 </div>
               </div>
-              <ul className="navigation__list">
-                <li className="navigation__item">
-                  <Link href="/" className="navigation__link">
-                    {t('Home')}
-                  </Link>
-                </li>
-                <li
-                  className="navigation__item cursor-pointer"
-                  onClick={() => {
-                    setNavOpen(false)
-                    setOpenModal(true)
-                  }}
-                >
+              <ul className="navigation__list flex flex-col">
+                <Link href="/" className="navigation__item inline-block">
+                  <span className="navigation__link">{t('Home')}</span>
+                </Link>
+                <Link href="/about-us" className="navigation__item inline-block">
                   <span className="navigation__link">{t('About_Us')}</span>
-                </li>
-                <li className="navigation__item">
-                  <Link href="/case-studies" className="navigation__link">
-                    {t('Our_Studies')}
-                  </Link>
-                </li>
-                <li className="navigation__item">
-                  <Link href="/blog" className="navigation__link">
-                    {t('Terms_of_Service')}
-                  </Link>
-                </li>
-                <li className="navigation__item">
-                  <Link href="/cookies" className="navigation__link">
-                    {t('Cookies_Policy')}
-                  </Link>
-                </li>
-                <li className="navigation__item">
-                  <Link href="/privacy-policy" className="navigation__link">
-                    {t('Privacy_Policy')}
-                  </Link>
-                </li>
+                </Link>
+                <Link href="/case-studies" className="navigation__item inline-block">
+                  <span className="navigation__link">{t('Our_Studies')}</span>
+                </Link>
+                <Link href="/blog" className="navigation__item inline-block">
+                  <span className="navigation__link">{t('Terms_of_Service')}</span>
+                </Link>
+                <Link href="/cookies" className="navigation__item inline-block">
+                  <span className="navigation__link">{t('Cookies_Policy')}</span>
+                </Link>
+                <Link href="/privacy-policy" className="navigation__item inline-block">
+                  <span className="navigation__link">{t('Privacy_Policy')}</span>
+                </Link>
               </ul>
             </nav>
           </div>
