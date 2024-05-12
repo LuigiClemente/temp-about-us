@@ -1,14 +1,230 @@
 webpackJsonp(
   [1],
   Array(19).concat([
-    ,,,,,,,,,,,,,,,,,,,,,,,,
-    function (e, t, n) {
-    },,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    function (e, t, n) {},
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
     function (e, t, n) {
       e.exports = '../objects/tea-set-dummy-stand-2.webp'
     },
-    function (e, t, n) {
-    },,,,,
+    function (e, t, n) {},
+    ,
+    ,
+    ,
+    ,
     function (e, t, n) {
       'use strict'
       ;(function (e) {
@@ -89,8 +305,24 @@ webpackJsonp(
       var o = n(2)(n(243), n(492), null, null)
       e.exports = o.exports
     },
-    function (e, t, n) {
-    },,,,,,,,,,,,,,,,,,
+    function (e, t, n) {},
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
     function (e, t, n) {
       'use strict'
       Object.defineProperty(t, '__esModule', { value: !0 })
@@ -135,7 +367,7 @@ webpackJsonp(
                 x: 0.5,
                 y: h ? 0.7 : 0.5,
                 isStatic: !1,
-                scale: 0.6,                
+                scale: 0.6,
                 label: 'Plate Middle',
                 sprite: n(397),
                 pathData: '1023.4 4.8 1023.4 132 0.5 132 0.5 0.5 1023.4 0.5',
@@ -147,7 +379,8 @@ webpackJsonp(
                 isStatic: !1,
                 label: 'Plate Top',
                 sprite: n(398),
-                pathData: '1026.3 132.9 0.5 132.9 0.5 0.5 180 12.5 838.5 12.5 1026.3 0.5 1026.3 124.5',
+                pathData:
+                  '1026.3 132.9 0.5 132.9 0.5 0.5 180 12.5 838.5 12.5 1026.3 0.5 1026.3 124.5',
               },
               standOne: {
                 x: 0.5,
@@ -185,7 +418,7 @@ webpackJsonp(
                   pathData: '169 2 250 49 250 168 89 211 11 155 4 39',
                 },
                 {
-                  label: 'Acc03',
+                  label: 'onion',
                   width: 201,
                   height: 209,
                   scale: 1,
@@ -215,7 +448,6 @@ webpackJsonp(
                   scale: 1.3,
                   sprite: n(415),
                   pathData: '169 2 250 49 250 168 89 211 11 155 4 39',
-
                 },
                 {
                   label: 'bread',
@@ -239,7 +471,8 @@ webpackJsonp(
                   height: 340,
                   scale: 1.3,
                   sprite: n(416),
-                  pathData: '490 22 179 313 70 335 2 212 92 121 194 149 274 134 449 2',
+                  pathData:
+                    'M100.892 51.258C104.991 51.9288 109.256 54.4072 113.016 54.8772C118.332 54.8772 126.337 58.1344 131.745 58.1344C137.11 58.1344 145.675 58.8967 150.475 61.0298C156.955 63.9098 169.511 61.3917 176.533 61.3917C189.803 61.3917 202.637 63.0203 215.982 63.0203C247.306 63.0203 276.129 66.746 306.823 72.4302C325.972 75.9762 344.231 82.9407 362.921 88.1737C374.906 91.5295 388.699 97.2217 401.284 97.2217C412.831 97.2217 430.292 100.112 437.114 88.1737C440.276 82.6396 441.767 73.8383 442 67.5443C442.42 56.2154 445.542 44.9816 446.795 33.7049C448.187 21.1797 453.344 11.6885 459.553 1.13225C461.412 -2.02742 469.604 25.5199 470.501 28.9095C476.188 50.3946 482.854 72.393 486.335 94.3263C490.056 117.767 497.374 139.547 497.374 163.634C497.374 183.041 495.745 202.29 495.745 221.722C495.745 235.414 497.045 250.645 490.859 263.342C482.795 279.895 460.598 300.801 441.276 300.801C426.829 300.801 422.281 294.38 415.58 282.524C410.816 274.095 410.196 264.844 406.984 255.923C403.1 245.133 397.599 235.266 390.698 226.065C381.685 214.047 376.448 209.597 362.197 209.597C324.93 209.597 287.002 195.417 251.359 185.982C232.779 181.064 213.549 174.144 195.714 167.253C181.629 161.811 164.636 158.722 149.687 156.005L148.846 155.852C131.734 152.741 115.372 146.108 98.7202 141.195C79.5767 135.546 56.1274 131.762 38.9131 121.561C29.4685 115.964 10.1732 106.373 5.88803 95.2311C2.89753 87.4558 -1.06538 73.3358 3.17364 65.4633C13.8859 45.569 35.1712 48.3626 55.109 48.3626C70.4302 48.3626 85.7382 48.7783 100.892 51.258Z',
                 },
                 {
                   label: 'tomato',
@@ -247,7 +480,8 @@ webpackJsonp(
                   height: 374,
                   scale: 1,
                   sprite: n(412),
-                  pathData: '139 2 150 72 264 109 325 206 300 222 295 314 198 366 120 366 41 335 10 147 41 65',
+                  pathData:
+                    '139 2 150 72 264 109 325 206 300 222 295 314 198 366 120 366 41 335 10 147 41 65',
                 },
                 {
                   label: 'potato',
@@ -255,7 +489,8 @@ webpackJsonp(
                   height: 303,
                   scale: 1.3,
                   sprite: n(421),
-                  pathData: '197 1 387 57 471 147 444 237 380 274 152 298 15 211 43 179 36 52 111 15',
+                  pathData:
+                    '197 1 387 57 471 147 444 237 380 274 152 298 15 211 43 179 36 52 111 15',
                 },
                 {
                   label: 'ham',
@@ -287,7 +522,8 @@ webpackJsonp(
                   height: 294,
                   scale: 0.8,
                   sprite: n(420),
-                  pathData: '139 2 150 72 264 109 325 206 300 222 295 314 198 366 120 366 41 335 10 147 41 65',
+                  pathData:
+                    '139 2 150 72 264 109 325 206 300 222 295 314 198 366 120 366 41 335 10 147 41 65',
                 },
                 {
                   label: 'lobster',
@@ -295,7 +531,8 @@ webpackJsonp(
                   height: 339,
                   scale: 2.4,
                   sprite: n(410),
-                  pathData: '136 7 202 24 244 108 305 115 289 144 226 144 190 171 118 158 7 66',
+                  pathData:
+                    'M147 2C107.492 -0.224573 89.3773 4.39059 49.8255 4.39059C48.7185 4.75961 46.9692 7.65121 45.9541 7.77811C45.2757 7.86291 42.4979 8.95278 42.0826 9.47187C41.3764 10.3547 39.4565 10.3662 38.4531 10.9237L33.8558 13.4777C31.1807 14.9639 28.8329 17.2926 26.7043 19.5C23.7004 22.6152 20.5 31 15.5 40C10.7066 48.6282 5.24394 62.3846 3.26056 72.0811C0.153883 87.2693 1.46945 102.68 3.42187 117.974C6.80709 144.492 11.5554 170.862 26.7044 193.44C35.0035 205.809 44.6653 219.18 56.3855 228.579C64.7382 235.278 75.801 237.412 86.1204 239.037C99.753 241.185 113.986 240.182 127.631 238.661C142.209 237.036 155.653 233.891 169.572 229.251C188.514 222.937 178.279 200.385 197 193.44C219.014 185.274 260.431 173.265 282 164C304.59 154.296 295.342 133.159 315 117.974C326.014 109.467 401.511 113.175 400.98 98.5233C400.482 84.7765 392.772 72.9895 384.902 62.2284C377.105 51.5669 366.492 17.3941 355.5 10C333.323 -4.91779 307.84 43.7137 282 40C250.396 35.4578 178.872 3.79458 147 2Z',
                 },
               ],
               nightOld: [
@@ -390,14 +627,16 @@ webpackJsonp(
                   height: 651,
                   scale: 0.4,
                   sprite: n(379),
-                  pathData: '2.5 576.8 0.5 210.8 118.5 134.8 226.5 0.8 314.5 124.8 475.5 145.8 508.5 524.8',
+                  pathData:
+                    '2.5 576.8 0.5 210.8 118.5 134.8 226.5 0.8 314.5 124.8 475.5 145.8 508.5 524.8',
                 },
                 {
                   label: 'Cake 05',
                   width: 571,
                   height: 530,
                   sprite: n(380),
-                  pathData: '56.6 425.1 0.6 231.1 126.6 105.1 108.6 1.1 226.6 79.1 366.6 37.1 538.6 271.1 422.6 467.1',
+                  pathData:
+                    '56.6 425.1 0.6 231.1 126.6 105.1 108.6 1.1 226.6 79.1 366.6 37.1 538.6 271.1 422.6 467.1',
                 },
                 {
                   label: 'Cake 06',
@@ -418,7 +657,8 @@ webpackJsonp(
                   width: 508,
                   height: 653,
                   sprite: n(383),
-                  pathData: '24.5 555.3 0.5 211.3 156.5 1.3 162.5 51.3 366.5 27.3 484.5 459.3 414.5 561.3',
+                  pathData:
+                    '24.5 555.3 0.5 211.3 156.5 1.3 162.5 51.3 366.5 27.3 484.5 459.3 414.5 561.3',
                 },
                 {
                   label: 'Cake 09',
@@ -432,7 +672,8 @@ webpackJsonp(
                   width: 527,
                   height: 404,
                   sprite: n(385),
-                  pathData: '8.5 290.6 0.5 92.6 75.5 87.6 107.5 0.6 239.5 36.6 249.5 88.6 384.5 158.6 391.5 330.6',
+                  pathData:
+                    '8.5 290.6 0.5 92.6 75.5 87.6 107.5 0.6 239.5 36.6 249.5 88.6 384.5 158.6 391.5 330.6',
                 },
                 {
                   label: 'Coronation Chicken Sandwich',
@@ -448,7 +689,8 @@ webpackJsonp(
                   height: 334,
                   scale: 0.7,
                   sprite: n(387),
-                  pathData: '18.5 280.5 0.5 165.5 33.5 142.5 47.5 104.5 291.5 0.5 400.5 50.5 395.5 179.5',
+                  pathData:
+                    '18.5 280.5 0.5 165.5 33.5 142.5 47.5 104.5 291.5 0.5 400.5 50.5 395.5 179.5',
                 },
                 {
                   label: 'Egg Sandwich',
@@ -456,7 +698,8 @@ webpackJsonp(
                   height: 290,
                   scale: 0.7,
                   sprite: n(388),
-                  pathData: '45.6 273.5 0.6 149.5 106.6 18.5 223.6 0.5 302.6 23.5 556.6 78.5 564.6 229.5',
+                  pathData:
+                    '45.6 273.5 0.6 149.5 106.6 18.5 223.6 0.5 302.6 23.5 556.6 78.5 564.6 229.5',
                 },
                 {
                   label: 'Elcair',
@@ -599,7 +842,11 @@ webpackJsonp(
               i()(t, 'restitution', 0),
               i()(t, 'isStatic', e.isStatic),
               i()(t, 'collisionFilter', {
-                mask: n.scene.platesCategory | n.scene.foodCategory | n.scene.standsCategory | n.scene.wallCategory,
+                mask:
+                  n.scene.platesCategory |
+                  n.scene.foodCategory |
+                  n.scene.standsCategory |
+                  n.scene.wallCategory,
               }),
               i()(t, 'render', {
                 sprite: {
@@ -609,7 +856,7 @@ webpackJsonp(
                   yOffset: 0.15,
                 },
               }),
-              t),
+              t)
             )
           },
           getStand: function (e) {
@@ -641,12 +888,15 @@ webpackJsonp(
                     yOffset: 0,
                   },
                 }),
-                t),
+                t)
               )
             if (e.pathData) {
               var a = e.pathData.split(' ')
               a = a.map(function (t) {
-                return (t = Math.max(t, 0)), (t * n.scene.worldScale * 1 * e.scale * n.scene.furnitureScale).toFixed(0)
+                return (
+                  (t = Math.max(t, 0)),
+                  (t * n.scene.worldScale * 1 * e.scale * n.scene.furnitureScale).toFixed(0)
+                )
               })
               var s = r.a.Vertices.fromPath(a.join(' '))
               r.a.Body.setVertices(o, s)
@@ -684,7 +934,7 @@ webpackJsonp(
                       yScale: 1 * e.scene.worldScale * n,
                     },
                   },
-                },
+                }
               ),
               i = e.foodConfig[e.scene.mode][t].pathData.split(' ')
             i = i.map(function (t) {
@@ -712,13 +962,20 @@ webpackJsonp(
                   n()
                 }, 300),
               d.scene.render.canvas &&
-                ((d.scene.render.canvas.width = g || d.scene.render.options.width || d.scene.render.canvas.width),
-                (d.scene.render.canvas.height = m || d.scene.render.options.height || d.scene.render.canvas.height)),
+                ((d.scene.render.canvas.width =
+                  g || d.scene.render.options.width || d.scene.render.canvas.width),
+                (d.scene.render.canvas.height =
+                  m || d.scene.render.options.height || d.scene.render.canvas.height)),
               t()
           }
           function o(e) {
-            if (((d.userInputCounter += 1), d.$emit('game-actions', { click: d.userInputCounter }), b < 1)) {
-              ;(document.body.style.cursor = '-webkit-grab'), (d.scene.foodPreview.style.opacity = 0)
+            if (
+              ((d.userInputCounter += 1),
+              d.$emit('game-actions', { click: d.userInputCounter }),
+              b < 1)
+            ) {
+              ;(document.body.style.cursor = '-webkit-grab'),
+                (d.scene.foodPreview.style.opacity = 0)
               var t = e.mouse.position.x,
                 n = e.mouse.position.y
               w.setPosition(d.scene.nextFood, { x: t, y: n }),
@@ -740,8 +997,10 @@ webpackJsonp(
               (d.scene.foodPreview.style.left = A - d.scene.foodPreview.width / 2 + 'px'),
               (d.scene.foodPreview.style.top = f - d.scene.foodPreview.height / 2 + 'px'),
               b.length > 0
-                ? ((d.scene.foodPreview.style.opacity = 0), (document.body.style.cursor = '-webkit-grab'))
-                : ((d.scene.foodPreview.style.opacity = 0.5), (document.body.style.cursor = '-webkit-grabbing'))
+                ? ((d.scene.foodPreview.style.opacity = 0),
+                  (document.body.style.cursor = '-webkit-grab'))
+                : ((d.scene.foodPreview.style.opacity = 0.5),
+                  (document.body.style.cursor = '-webkit-grabbing'))
           }
           function l() {
             k.off(E, 'mousedown', o),
@@ -810,11 +1069,20 @@ webpackJsonp(
             constraint: { stiffness: 0.8, render: { visible: !1 } },
           })
           ;(E.collisionFilter.mask =
-            d.scene.defaultCategory | d.scene.platesCategory | d.scene.standsCategory | d.scene.wallCategory),
+            d.scene.defaultCategory |
+            d.scene.platesCategory |
+            d.scene.standsCategory |
+            d.scene.wallCategory),
             d.world.add(d.scene.engine.world, E),
             (d.scene.render.mouse = E.mouse),
-            d.scene.render.mouse.element.removeEventListener('mousewheel', d.scene.render.mouse.mousewheel),
-            d.scene.render.mouse.element.removeEventListener('DOMMouseScroll', d.scene.render.mouse.mousewheel),
+            d.scene.render.mouse.element.removeEventListener(
+              'mousewheel',
+              d.scene.render.mouse.mousewheel
+            ),
+            d.scene.render.mouse.element.removeEventListener(
+              'DOMMouseScroll',
+              d.scene.render.mouse.mousewheel
+            ),
             d.addScene(),
             (d.scene.nextFood = d.getNewFood()),
             d.scene.food.push(d.scene.nextFood),
@@ -847,7 +1115,12 @@ webpackJsonp(
             (d.unbindEvents = l)
         },
       }
-    },,,,,,
+    },
+    ,
+    ,
+    ,
+    ,
+    ,
     function (e, t, n) {
       'use strict'
       Object.defineProperty(t, '__esModule', { value: !0 })
@@ -864,9 +1137,115 @@ webpackJsonp(
           template: '<App/>',
           components: { App: a.a },
         })
-    },,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-    function (e, t) {},,
-    function (e, t) {},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    },
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    function (e, t) {},
+    ,
+    function (e, t) {},
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
     function (e, t, n) {
       e.exports = '../foods/cake-1.webp'
     },
@@ -945,16 +1324,11 @@ webpackJsonp(
     function (e, t, n) {
       e.exports = '../foods/icecream.webp'
     },
-    function (e, t, n) {
-    },
-    function (e, t, n) {
-    },
-    function (e, t, n) {
-    },
-    function (e, t, n) {
-    },
-    function (e, t, n) {
-    },
+    function (e, t, n) {},
+    function (e, t, n) {},
+    function (e, t, n) {},
+    function (e, t, n) {},
+    function (e, t, n) {},
     function (e, t, n) {
       e.exports = '../foods-2/bread.webp'
     },
@@ -1002,36 +1376,78 @@ webpackJsonp(
     },
     function (e, t, n) {
       e.exports = '../foods-2/egg.webp'
-    },,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-    function (e, t, n) {
-    },,
-    function (e, t, n) {
-    },,
-    function (e, t, n) {
     },
-    function (e, t, n) {
-    },
-    function (e, t, n) {
-    },,,
-    function (e, t, n) {
-    },,,
-    function (e, t, n) {
-    },
-    function (e, t, n) {
-    },
-    function (e, t, n) {
-    },
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    function (e, t, n) {},
+    ,
+    function (e, t, n) {},
+    ,
+    function (e, t, n) {},
+    function (e, t, n) {},
+    function (e, t, n) {},
+    ,
+    ,
+    function (e, t, n) {},
+    ,
+    ,
+    function (e, t, n) {},
+    function (e, t, n) {},
+    function (e, t, n) {},
     function (e, t, n) {
       n(333)
       var o = n(2)(n(261), n(490), 'data-v-46007155', null)
       e.exports = o.exports
     },
-    function (e, t, n) {
-    },
-    function (e, t, n) {
-    },
-    function (e, t, n) {
-    },,,,,,,,,,,
+    function (e, t, n) {},
+    function (e, t, n) {},
+    function (e, t, n) {},
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
     // switch between food play
     function (e, t) {
       e.exports = {
@@ -1116,13 +1532,13 @@ webpackJsonp(
                                         id: 'Shape',
                                       },
                                     }),
-                                  ],
+                                  ]
                                 ),
-                              ],
+                              ]
                             ),
-                          ],
+                          ]
                         ),
-                      ],
+                      ]
                     ),
                   ]),
                   e._v(' '),
@@ -1187,16 +1603,16 @@ webpackJsonp(
                                         id: 'Shape',
                                       },
                                     }),
-                                  ],
+                                  ]
                                 ),
-                              ],
+                              ]
                             ),
-                          ],
+                          ]
                         ),
-                      ],
+                      ]
                     ),
                   ]),
-                ],
+                ]
               ),
             ]),
           ])
@@ -1253,7 +1669,7 @@ webpackJsonp(
                     },
                   }),
                 ],
-                1,
+                1
               ),
               e._v(' '),
               n(
@@ -1270,7 +1686,7 @@ webpackJsonp(
                   staticClass: 'router-view',
                 },
                 [n('router-view', { on: { 'game-actions': e.onGameActions } })],
-                1,
+                1
               ),
               e._v(' '),
               !e.showModalsOnLoad ||
@@ -1286,12 +1702,26 @@ webpackJsonp(
                     on: { openmodal: e.onOpenModalFromLandingModal },
                   }),
             ],
-            1,
+            1
           )
         },
         staticRenderFns: [],
       }
-    },,,,,,,,,,,,,,,
+    },
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
+    ,
   ]),
-  [267],
+  [267]
 )
