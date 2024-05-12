@@ -185,7 +185,7 @@ webpackJsonp(
                   pathData: '169 2 250 49 250 168 89 211 11 155 4 39',
                 },
                 {
-                  label: 'onion',
+                  label: 'Acc03',
                   width: 201,
                   height: 209,
                   scale: 1,
