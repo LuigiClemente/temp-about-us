@@ -532,7 +532,7 @@ webpackJsonp(
                   scale: 2.4,
                   sprite: n(410),
                   pathData:
-                    'M147 2C107.492 -0.224573 89.3773 4.39059 49.8255 4.39059C48.7185 4.75961 46.9692 7.65121 45.9541 7.77811C45.2757 7.86291 42.4979 8.95278 42.0826 9.47187C41.3764 10.3547 39.4565 10.3662 38.4531 10.9237L33.8558 13.4777C31.1807 14.9639 28.8329 17.2926 26.7043 19.5C23.7004 22.6152 20.5 31 15.5 40C10.7066 48.6282 5.24394 62.3846 3.26056 72.0811C0.153883 87.2693 1.46945 102.68 3.42187 117.974C6.80709 144.492 11.5554 170.862 26.7044 193.44C35.0035 205.809 44.6653 219.18 56.3855 228.579C64.7382 235.278 75.801 237.412 86.1204 239.037C99.753 241.185 113.986 240.182 127.631 238.661C142.209 237.036 155.653 233.891 169.572 229.251C188.514 222.937 178.279 200.385 197 193.44C219.014 185.274 260.431 173.265 282 164C304.59 154.296 295.342 133.159 315 117.974C326.014 109.467 401.511 113.175 400.98 98.5233C400.482 84.7765 392.772 72.9895 384.902 62.2284C377.105 51.5669 366.492 17.3941 355.5 10C333.323 -4.91779 307.84 43.7137 282 40C250.396 35.4578 178.872 3.79458 147 2Z',
+                    'M207 126C206 128 205 130 205 133C215 128 230 128 236 138C243 148 247 160 253 171C258 180 256 191 261 199C270 214 283 227 290 244C293 252 297 260 297 268C297 275 300 282 298 289C296 294 296 301 299 305C307 314 305 330 306 340C308 355 306 371 302 385C301 391 300 397 298 403C294 412 289 420 285 429C280 442 276 456 270 469C266 478 262 490 255 497C251 500 246 502 242 504C237 506 233 508 228 510C220 513 211 514 203 514C195 514 187 514 179 512C170 510 160 509 151 506C143 504 136 501 128 498C119 494 109 490 101 484C95 479 88 474 82 471C69 463 57 455 47 444C33 429 24 412 18 392C15 379 13 366 11 353C9 343 6 334 4 325C1 310 2 294 4 279C8 261 21 246 25 228C26 224 28 220 29 216C30 212 29 209 30 205C31 197 31 190 34 182C36 175 42 169 48 166C54 164 60 161 65 158C73 153 81 147 87 139C91 134 91 128 93 123C96 112 96 100 96 90C96 84 99 77 98 71C97 64 95 56 95 50C95 44 95 38 96 33C97 29 100 26 102 23C105 19 111 16 115 13C120 10 126 7 132 5C148 -1 168 0 179 16C186 25 189 35 195 44C202 55 208 65 214 76C219 86 220 97 217 108C215 114 213 120 210 126L207 126Z',
                 },
               ],
               nightOld: [
@@ -909,39 +909,50 @@ webpackJsonp(
               n = e.scene.foodScale
             e.foodConfig[e.scene.mode][t].scale && (n = e.foodConfig[e.scene.mode][t].scale)
             var o = r.a.Bodies.rectangle(
-                0.5 * window.innerWidth,
-                0.1 * window.innerHeight,
-                e.foodConfig[e.scene.mode][t].width * e.scene.worldScale * e.scene.foodScale,
-                e.foodConfig[e.scene.mode][t].height * e.scene.worldScale * e.scene.foodScale,
-                {
-                  density: 1,
-                  friction: 1,
-                  array_id: t,
-                  firctionAir: 1,
-                  frictionStatic: 1e3,
-                  restitution: 0.001,
-                  sleepThreshold: 100,
-                  chamfer: 100,
-                  interaction_type: 'food',
-                  label: e.foodConfig[e.scene.mode][t].label,
-                  collisionFilter: {
-                    mask: e.scene.platesCategory | e.scene.foodCategory | e.scene.wallCategory,
+              0.5 * window.innerWidth,
+              0.1 * window.innerHeight,
+              e.foodConfig[e.scene.mode][t].width * e.scene.worldScale * e.scene.foodScale,
+              e.foodConfig[e.scene.mode][t].height * e.scene.worldScale * e.scene.foodScale,
+              {
+                density: 1,
+                friction: 1,
+                array_id: t,
+                firctionAir: 1,
+                frictionStatic: 1e3,
+                restitution: 0.001,
+                sleepThreshold: 100,
+                chamfer: 100,
+                interaction_type: 'food',
+                label: e.foodConfig[e.scene.mode][t].label,
+                collisionFilter: {
+                  mask: e.scene.platesCategory | e.scene.foodCategory | e.scene.wallCategory,
+                },
+                render: {
+                  sprite: {
+                    texture: e.foodConfig[e.scene.mode][t].sprite,
+                    xScale: 1 * e.scene.worldScale * n,
+                    yScale: 1 * e.scene.worldScale * n,
                   },
-                  render: {
-                    sprite: {
-                      texture: e.foodConfig[e.scene.mode][t].sprite,
-                      xScale: 1 * e.scene.worldScale * n,
-                      yScale: 1 * e.scene.worldScale * n,
-                    },
-                  },
-                }
-              ),
-              i = e.foodConfig[e.scene.mode][t].pathData.split(' ')
+                },
+              }
+            )
+
+            var i = e.foodConfig[e.scene.mode][t].pathData
+
+            if (typeof i === 'string' && i.includes('M')) {
+              i = i.split(/[,\s]/).map(parseFloat)
+            } else {
+              i = i.split(' ')
+            }
+
             i = i.map(function (t) {
               return (t = Math.max(t, 0)), (t * n * e.scene.worldScale).toFixed(0)
             })
+
             var a = r.a.Vertices.fromPath(i.join(' '))
-            return r.a.Body.setVertices(o, a), o
+            r.a.Body.setVertices(o, a)
+
+            return o
           },
         },
         mounted: function () {
