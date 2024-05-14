@@ -836,7 +836,6 @@ webpackJsonp(
               ((t = {
                 density: 1,
                 friction: 1,
-                firctionAir: 1,
                 frictionStatic: 1,
                 sleepThreshold: 1,
                 restitution: 0,
