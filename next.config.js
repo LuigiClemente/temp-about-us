@@ -1,8 +1,8 @@
 const { withContentlayer } = require('next-contentlayer2')
-const createNextIntlPlugin = require('next-intl/plugin');
- 
-const withNextIntl = createNextIntlPlugin();
-const nextConfig = {};
+const createNextIntlPlugin = require('next-intl/plugin')
+
+const withNextIntl = createNextIntlPlugin()
+const nextConfig = {}
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
@@ -61,9 +61,9 @@ const securityHeaders = [
 /**
  * @type {import('next/dist/next-server/server/config').NextConfig}
  **/
-const getNextIntl =  ()=> withNextIntl(nextConfig);
+const getNextIntl = () => withNextIntl(nextConfig)
 module.exports = () => {
-  const plugins = [withContentlayer, withBundleAnalyzer ,getNextIntl ]
+  const plugins = [withContentlayer, withBundleAnalyzer, getNextIntl]
   return plugins.reduce((acc, next) => next(acc), {
     reactStrictMode: true,
     pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
@@ -81,8 +81,27 @@ module.exports = () => {
     async headers() {
       return [
         {
+          // Apply these headers to all routes in your application
           source: '/(.*)',
-          headers: securityHeaders,
+          headers: [
+            {
+              key: 'Access-Control-Allow-Credentials',
+              value: 'true',
+            },
+            {
+              key: 'Access-Control-Allow-Origin',
+              value: 'https://gutricious.com', // Allow requests from this specific domain
+            },
+            {
+              key: 'Access-Control-Allow-Methods',
+              value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT',
+            },
+            {
+              key: 'Access-Control-Allow-Headers',
+              value:
+                'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version',
+            },
+          ],
         },
       ]
     },
