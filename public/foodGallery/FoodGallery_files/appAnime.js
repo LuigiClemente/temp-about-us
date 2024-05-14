@@ -527,12 +527,12 @@ webpackJsonp(
                 },
                 {
                   label: 'lobster',
-                  width: 394,
-                  height: 339,
+                  width: 700,
+                  height: 500,
                   scale: 2.4,
                   sprite: n(410),
                   pathData:
-                    'M207 126C206 128 205 130 205 133C215 128 230 128 236 138C243 148 247 160 253 171C258 180 256 191 261 199C270 214 283 227 290 244C293 252 297 260 297 268C297 275 300 282 298 289C296 294 296 301 299 305C307 314 305 330 306 340C308 355 306 371 302 385C301 391 300 397 298 403C294 412 289 420 285 429C280 442 276 456 270 469C266 478 262 490 255 497C251 500 246 502 242 504C237 506 233 508 228 510C220 513 211 514 203 514C195 514 187 514 179 512C170 510 160 509 151 506C143 504 136 501 128 498C119 494 109 490 101 484C95 479 88 474 82 471C69 463 57 455 47 444C33 429 24 412 18 392C15 379 13 366 11 353C9 343 6 334 4 325C1 310 2 294 4 279C8 261 21 246 25 228C26 224 28 220 29 216C30 212 29 209 30 205C31 197 31 190 34 182C36 175 42 169 48 166C54 164 60 161 65 158C73 153 81 147 87 139C91 134 91 128 93 123C96 112 96 100 96 90C96 84 99 77 98 71C97 64 95 56 95 50C95 44 95 38 96 33C97 29 100 26 102 23C105 19 111 16 115 13C120 10 126 7 132 5C148 -1 168 0 179 16C186 25 189 35 195 44C202 55 208 65 214 76C219 86 220 97 217 108C215 114 213 120 210 126L207 126Z',
+                    '179 2 170 72 264 109 328 206 300 222 295 314 198 396 120 366 41 335 20 147 41 85',
                 },
               ],
               nightOld: [
@@ -909,50 +909,39 @@ webpackJsonp(
               n = e.scene.foodScale
             e.foodConfig[e.scene.mode][t].scale && (n = e.foodConfig[e.scene.mode][t].scale)
             var o = r.a.Bodies.rectangle(
-              0.5 * window.innerWidth,
-              0.1 * window.innerHeight,
-              e.foodConfig[e.scene.mode][t].width * e.scene.worldScale * e.scene.foodScale,
-              e.foodConfig[e.scene.mode][t].height * e.scene.worldScale * e.scene.foodScale,
-              {
-                density: 1,
-                friction: 1,
-                array_id: t,
-                firctionAir: 1,
-                frictionStatic: 1e3,
-                restitution: 0.001,
-                sleepThreshold: 100,
-                chamfer: 100,
-                interaction_type: 'food',
-                label: e.foodConfig[e.scene.mode][t].label,
-                collisionFilter: {
-                  mask: e.scene.platesCategory | e.scene.foodCategory | e.scene.wallCategory,
-                },
-                render: {
-                  sprite: {
-                    texture: e.foodConfig[e.scene.mode][t].sprite,
-                    xScale: 1 * e.scene.worldScale * n,
-                    yScale: 1 * e.scene.worldScale * n,
+                0.5 * window.innerWidth,
+                0.1 * window.innerHeight,
+                e.foodConfig[e.scene.mode][t].width * e.scene.worldScale * e.scene.foodScale,
+                e.foodConfig[e.scene.mode][t].height * e.scene.worldScale * e.scene.foodScale,
+                {
+                  density: 1,
+                  friction: 1,
+                  array_id: t,
+                  firctionAir: 1,
+                  frictionStatic: 1e3,
+                  restitution: 0.001,
+                  sleepThreshold: 100,
+                  chamfer: 100,
+                  interaction_type: 'food',
+                  label: e.foodConfig[e.scene.mode][t].label,
+                  collisionFilter: {
+                    mask: e.scene.platesCategory | e.scene.foodCategory | e.scene.wallCategory,
                   },
-                },
-              }
-            )
-
-            var i = e.foodConfig[e.scene.mode][t].pathData
-
-            if (typeof i === 'string' && i.includes('M')) {
-              i = i.split(/[,\s]/).map(parseFloat)
-            } else {
-              i = i.split(' ')
-            }
-
+                  render: {
+                    sprite: {
+                      texture: e.foodConfig[e.scene.mode][t].sprite,
+                      xScale: 1 * e.scene.worldScale * n,
+                      yScale: 1 * e.scene.worldScale * n,
+                    },
+                  },
+                }
+              ),
+              i = e.foodConfig[e.scene.mode][t].pathData.split(' ')
             i = i.map(function (t) {
               return (t = Math.max(t, 0)), (t * n * e.scene.worldScale).toFixed(0)
             })
-
             var a = r.a.Vertices.fromPath(i.join(' '))
-            r.a.Body.setVertices(o, a)
-
-            return o
+            return r.a.Body.setVertices(o, a), o
           },
         },
         mounted: function () {
