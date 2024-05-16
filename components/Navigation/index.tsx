@@ -189,7 +189,7 @@ export const Navigation = ({
                 </div>
               </div>
               <ul className="navigation__list flex select-none flex-col">
-                <Link href="/" className="navigation__item inline-block">
+                <Link href="/" className="navigation__item !mx-auto inline-block w-max ">
                   <span className="navigation__link">{t('Home')}</span>
                 </Link>
                 <span
@@ -197,20 +197,26 @@ export const Navigation = ({
                     setOpenModal(!openModal)
                     setNavOpen(false)
                   }}
-                  className="navigation__item inline-block cursor-pointer"
+                  className="navigation__item !mx-auto inline-block w-max cursor-pointer"
                 >
                   <span className="navigation__link">{t('About_Us')}</span>
                 </span>
-                <Link href="/case-studies" className="navigation__item inline-block">
+                <Link
+                  href="/case-studies"
+                  className="navigation__item  !mx-auto inline-block  w-max "
+                >
                   <span className="navigation__link">{t('Our_Studies')}</span>
                 </Link>
-                <Link href="/blog" className="navigation__item inline-block">
+                <Link href="/blog" className="navigation__item !mx-auto inline-block w-max">
                   <span className="navigation__link">{t('Terms_of_Service')}</span>
                 </Link>
-                <Link href="/cookies" className="navigation__item inline-block">
+                <Link href="/cookies" className="navigation__item !mx-auto inline-block w-max">
                   <span className="navigation__link">{t('Cookies_Policy')}</span>
                 </Link>
-                <Link href="/privacy-policy" className="navigation__item inline-block">
+                <Link
+                  href="/privacy-policy"
+                  className="navigation__item !mx-auto inline-block w-max"
+                >
                   <span className="navigation__link">{t('Privacy_Policy')}</span>
                 </Link>
               </ul>
