@@ -85,72 +85,70 @@ export const Navigation = ({
         </div>
 
         <div className="pointer-events-auto flex items-center  gap-10 ">
-          {!openModal && (
-            <>
-              <Popover
-                isOpen={langOpen}
-                positions={['left', 'top']}
-                padding={10}
-                onClickOutside={() => setLangOpen(false)}
-                content={({ position, nudgedLeft, nudgedTop }) => (
-                  <div className="languages-box">
-                    {languages.map((lang) => (
-                      <div
-                        key={lang.code}
-                        className={`language ${selectedLanguage === lang.code ? 'selected' : ''}`}
-                        onClick={() => changeLanguage(lang.code)}
+          <>
+            <Popover
+              isOpen={langOpen}
+              positions={['left', 'top']}
+              padding={10}
+              onClickOutside={() => setLangOpen(false)}
+              content={({ position, nudgedLeft, nudgedTop }) => (
+                <div className="languages-box">
+                  {languages.map((lang) => (
+                    <div
+                      key={lang.code}
+                      className={`language ${selectedLanguage === lang.code ? 'selected' : ''}`}
+                      onClick={() => changeLanguage(lang.code)}
+                    >
+                      <span>{lang.label}</span>
+                      <svg
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        <span>{lang.label}</span>
-                        <svg
-                          height="1em"
-                          viewBox="0 0 24 24"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            clipRule="evenodd"
-                            d="M20.54 7.225 9.58 18.185l-6.12-6.12 1.415-1.414 4.705 4.706 9.546-9.546z"
-                          ></path>
-                        </svg>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              >
-                <div
-                  className={`lang-btn relative  cursor-pointer ${isLangBtnHovered ? 'hovered' : ''}`}
-                  onClick={() => setLangOpen(!langOpen)}
-                >
-                  <div
-                    className="inner-lang-btn absolute z-20 h-full w-full cursor-pointer"
-                    onMouseEnter={() => {
-                      setIsLangBtnHovered(true)
-                    }}
-                    onMouseLeave={() => setIsLangBtnHovered(false)}
-                    onClick={() => setLangOpen(!langOpen)}
-                  ></div>
-
-                  <CiGlobe color={section === 'light' ? '#ffffff' : '#000000'} />
+                        <path
+                          clipRule="evenodd"
+                          d="M20.54 7.225 9.58 18.185l-6.12-6.12 1.415-1.414 4.705 4.706 9.546-9.546z"
+                        ></path>
+                      </svg>
+                    </div>
+                  ))}
                 </div>
-              </Popover>
+              )}
+            >
               <div
-                className={`relative ${section === 'light' ? 'light' : 'dark'} hamburger-container  ${navOpen ? 'navOpen' : ''}`}
+                className={`lang-btn relative  cursor-pointer ${isLangBtnHovered ? 'hovered' : ''}`}
+                onClick={() => setLangOpen(!langOpen)}
               >
                 <div
-                  className={`extra-nav absolute  z-20 h-full w-full rounded-full duration-[800ms]`}
+                  className="inner-lang-btn absolute z-20 h-full w-full cursor-pointer"
                   onMouseEnter={() => {
-                    setIsHovered(true)
+                    setIsLangBtnHovered(true)
                   }}
-                  onMouseLeave={() => setIsHovered(false)}
-                  onClick={() => setNavOpen(!navOpen)}
+                  onMouseLeave={() => setIsLangBtnHovered(false)}
+                  onClick={() => setLangOpen(!langOpen)}
                 ></div>
-                <button className={` menu__icon  ${isHovered || navOpen ? 'hovered-class' : ''}`}>
-                  <span></span>
-                  <span></span>
-                </button>
+
+                <CiGlobe color={section === 'light' ? '#ffffff' : '#000000'} />
               </div>
-            </>
-          )}
+            </Popover>
+            <div
+              className={`relative ${section === 'light' ? 'light' : 'dark'} hamburger-container  ${navOpen ? 'navOpen' : ''}`}
+            >
+              <div
+                className={`extra-nav absolute  z-20 h-full w-full rounded-full duration-[800ms]`}
+                onMouseEnter={() => {
+                  setIsHovered(true)
+                }}
+                onMouseLeave={() => setIsHovered(false)}
+                onClick={() => setNavOpen(!navOpen)}
+              ></div>
+              <button className={` menu__icon  ${isHovered || navOpen ? 'hovered-class' : ''}`}>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </>
 
           <CookiesModal
             cookiesData={cookiesData}
@@ -190,13 +188,19 @@ export const Navigation = ({
                   </button>
                 </div>
               </div>
-              <ul className="navigation__list flex flex-col">
+              <ul className="navigation__list flex select-none flex-col">
                 <Link href="/" className="navigation__item inline-block">
                   <span className="navigation__link">{t('Home')}</span>
                 </Link>
-                <Link href="/about-us" className="navigation__item inline-block">
+                <span
+                  onClick={() => {
+                    setOpenModal(!openModal)
+                    setNavOpen(false)
+                  }}
+                  className="navigation__item inline-block cursor-pointer"
+                >
                   <span className="navigation__link">{t('About_Us')}</span>
-                </Link>
+                </span>
                 <Link href="/case-studies" className="navigation__item inline-block">
                   <span className="navigation__link">{t('Our_Studies')}</span>
                 </Link>
