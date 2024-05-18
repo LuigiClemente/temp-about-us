@@ -218,7 +218,7 @@ webpackJsonp(
     ,
     ,
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../objects/tea-set-dummy-stand-2.webp'
     },
     function (e, t, n) {},
     ,
@@ -1251,82 +1251,82 @@ webpackJsonp(
     ,
     ,
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/cake-1.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/cake-2.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/cake-3.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/cake-4.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/cake-5.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/cake-6.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/cake-7.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/cake-8.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/cake-9.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/cake-10.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/coronation-chicken-sandwich.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/cucumber-sandwich.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/egg-sandwich.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/elcair.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/macaroon.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/malabar-marshmallow.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/meringue.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/salmon-sandwich.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/scone-1.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/scone-2.webp'
     },
     function (e, t, n) {
-      e.exports = '../plate-bottom.png'
+      e.exports = '../foods/plate-top.webp'
     },
     function (e, t, n) {
-      e.exports = '../plate-bottom.png'
+      e.exports = '../foods/plate-mid.webp'
     },
     function (e, t, n) {
-      e.exports = '../plate-bottom.png'
+      e.exports = '../foods/plate-bottom.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/ham.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/chives.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods/icecream.webp'
     },
     function (e, t, n) {},
     function (e, t, n) {},
@@ -1334,52 +1334,52 @@ webpackJsonp(
     function (e, t, n) {},
     function (e, t, n) {},
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/bread.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/broccoli.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/onion.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/lobster.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/ham.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/tomato.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/chicken.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/brussel_sprouts.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/lamb.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/lamb.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/asparagus.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/sushi.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/oyster.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/shrimp-2.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/potato.webp'
     },
     function (e, t, n) {
-      e.exports = '../acc-02.png'
+      e.exports = '../foods-2/egg.webp'
     },
     ,
     ,
