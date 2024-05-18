@@ -15,6 +15,7 @@ import { useLocale, useTranslations } from 'next-intl'
 import Modal from 'react-responsive-modal'
 import CookiesModal from '../CookiesModal/CookiesModal'
 import ScrollTopAndComment from '../ScrollTopAndComment'
+import { IMAGE_URL } from 'utils/image_url'
 
 export const Navigation = ({
   section,
@@ -75,7 +76,7 @@ export const Navigation = ({
             width={120}
             objectFit="contain"
             className=" pointer-events-auto h-[110px] w-[120px] object-contain 2xl:h-[100px] 2xl:w-[150px]"
-            src={`/assets/${section === 'dark' ? 'day' : 'night'}/logo.webp`}
+            src={`${IMAGE_URL}/assets/${section === 'dark' ? 'day' : 'night'}/logo.webp`}
           ></Image>
           <div
             className={`absolute top-0   z-20 h-full w-full cursor-pointer rounded-full`}

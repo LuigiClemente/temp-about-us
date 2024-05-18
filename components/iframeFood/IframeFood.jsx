@@ -16,7 +16,7 @@ const IframeFood = () => {
   // Utilize custom hook to obtain window size for dynamic styling
   const size = useWindowSize()
   // State to manage the source URL of the iframe
-  const [src] = useState('/foodGallery/FoodGallery.htm')
+
   // State to track if the iframe content has loaded
   const [load, setLoad] = useState(false)
 
@@ -34,17 +34,13 @@ const IframeFood = () => {
     }
   }, [isDesktopOrLaptop]) // Dependency array to re-run the effect only when isDesktopOrLaptop changes
 
-  const iframeSrc =
-    typeof window !== 'undefined' ? `${window.origin}/foodGallery/FoodGallery.htm` : ''
-
-  // Render the component UI
   return (
     <>
       {/* {showAnimation && ( */}
       <div className="z-50 h-full w-full">
         <iframe
           id="food-iframe"
-          src={`${window.origin}/foodGallery/FoodGallery.htm`}
+          src={`https://food-animation-navy.vercel.app/foodGallery/FoodGallery.htm`}
           scrolling="yes"
           frameBorder="0"
           allowFullScreen={true}

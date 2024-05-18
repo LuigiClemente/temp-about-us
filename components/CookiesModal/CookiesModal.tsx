@@ -21,6 +21,7 @@ import BackArrow from '@/components/BackArrow'
 import SimpleLayout from '@/layouts/SimpleLayout'
 import CookieServerRender from './CookieServerRender'
 import Image from 'next/image'
+import { IMAGE_URL } from 'utils/image_url'
 
 // Make sure to set the app element for accessibility reasons
 Modal.setAppElement('body')
@@ -50,14 +51,14 @@ const CookiesModal = ({ modalIsOpen, setModalIsOpen, cookiesData }: any) => {
         onClick={() => setModalIsOpen(false)}
       >
         <Image
-          src={'/assets/images/play-game-green.svg'}
+          src={`${IMAGE_URL}/assets/images/play-game-green.svg`}
           alt="game"
           height={70}
           width={100}
           className="image-green h-[70px] w-[100px] object-contain"
         ></Image>
         <Image
-          src={'/assets/images/play-game-yellow.svg'}
+          src={`${IMAGE_URL}/assets/images/play-game-yellow.svg`}
           alt="game"
           height={70}
           width={100}
