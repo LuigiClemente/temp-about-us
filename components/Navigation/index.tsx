@@ -74,6 +74,7 @@ export const Navigation = ({
             alt="logo"
             height={70}
             width={120}
+            loader={({ src }) => src}
             objectFit="contain"
             className=" pointer-events-auto h-[110px] w-[120px] object-contain 2xl:h-[100px] 2xl:w-[150px]"
             src={`${IMAGE_URL}/assets/${section === 'dark' ? 'day' : 'night'}/logo.webp`}

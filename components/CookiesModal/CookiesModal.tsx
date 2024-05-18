@@ -39,8 +39,8 @@ const CookiesModal = ({ modalIsOpen, setModalIsOpen, cookiesData }: any) => {
       isOpen={modalIsOpen}
       onRequestClose={closeModal}
       contentLabel="Welcome Modal"
-      className="CookieModal relative"
-      overlayClassName="CookieOverlay"
+      className="MyInfoModal relative"
+      overlayClassName="MyInfoModalOverlay"
     >
       <script
         type="application/ld+json"
@@ -53,6 +53,7 @@ const CookiesModal = ({ modalIsOpen, setModalIsOpen, cookiesData }: any) => {
         <Image
           src={`${IMAGE_URL}/assets/images/play-game-green.svg`}
           alt="game"
+          loader={({ src }) => src}
           height={70}
           width={100}
           className="image-green h-[70px] w-[100px] object-contain"
@@ -60,6 +61,7 @@ const CookiesModal = ({ modalIsOpen, setModalIsOpen, cookiesData }: any) => {
         <Image
           src={`${IMAGE_URL}/assets/images/play-game-yellow.svg`}
           alt="game"
+          loader={({ src }) => src}
           height={70}
           width={100}
           className="image-yellow h-[70px] w-[100px] object-contain"
