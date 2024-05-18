@@ -1,0 +1,80 @@
+{
+  "body": {
+    "raw": "## Introduction\n\n## Gutricious: Where Healthy Living Becomes an Uncharted Adventure\n\nAt Gutricious, we are not just changing the rules for healthy living – we take you on an adventure into the unexplored depths of your own biology. Our exclusive partnership with a leading microbiome lab offers the most advanced patented microbiome tests available, delivering unmatched precision in personal health insights. Our tests analyse over 100 key health biomarkers, from gut bacteria associated with inflammation to markers of nutrient uptake, providing industry-leading accuracy. This blend of cutting-edge technology, innovative engineering, and personal wellbeing creates an immersive, transformative journey.\n\n## Our Mission\n\nWe make understanding the critical role of nutrition in optimising your health engaging, accessible, and entertaining.\n\n## Unmatched Precision: Our Exclusive Partnership\n\nOur partnership with a leading microbiome lab sets Gutricious apart. You receive the most relevant, effective guidance to optimise your wellbeing.\n\n## Our Roots: A Fusion of Brilliance\n\nGutricious was born from the collective genius of pioneering food scientists, forward-thinking technology experts, and passionate health enthusiasts. Our platform, meticulously developed with expertise in AI, genetic epidemiology, computer science, and nutritional science, utilises advanced analytics to offer personalised dietary recommendations that seamlessly integrate into your life.\n\n## Our Promise: Simplifying the Complexity of Health\n\nWe cut through the noise of countless health fads and conflicting advice. Committed to transparency, integrity, and continuous innovation, we design every offering with your wellbeing at the core. We transform complex health data into clear, actionable insights. Our app turns detailed genetic reports into personalised diet plans to help you lose weight, boost energy, improve sleep, manage chronic conditions, and optimise overall health. Interactive tools, in-depth nutritional insights, and engaging content empower you to make informed, long-term lifestyle decisions.\n\n## Embark on an Unprecedented Health Journey\n\nDiscover how Gutricious makes your health journey joyful and rewarding. Dive into our world of health innovation and see how easy and exciting it can be to optimise your wellbeing.\n\n## Consistency at Every Touchpoint\n\nFrom our website to our app, from our educational content to our community interactions, we provide a coherent experience that delights, informs, and inspires.\n\n## Get Started: Begin Your Gutricious Journey Today\n\nAre you ready for a life-changing health journey? [Click here](https://gutricious-home.vercel.app/en#footer) to start with Gutricious today – your bold first step towards a healthier, more vibrant self. Access personalised diet plans, groundbreaking microbiome insights, and a supportive community, your constant companions on this remarkable journey.\n\n## Unveil a Feast for Your Eyes!\n\nSee how food transforms in our playful animation – at Gutricious, healthy eating is delicious and fun!\n",
+    "code": "var Component=(()=>{var u=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),v=(n,e)=>{for(var t in e)r(n,t,{get:e[t],enumerable:!0})},s=(n,e,t,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of m(e))!y.call(n,o)&&o!==t&&r(n,o,{get:()=>e[o],enumerable:!(a=p(e,o))||a.enumerable});return n};var b=(n,e,t)=>(t=n!=null?u(g(n)):{},s(e||!n||!n.__esModule?r(t,\"default\",{value:n,enumerable:!0}):t,n)),x=n=>s(r({},\"__esModule\",{value:!0}),n);var l=f((I,c)=>{c.exports=_jsx_runtime});var k={};v(k,{default:()=>h,frontmatter:()=>w});var i=b(l()),w=void 0;function d(n){let e={a:\"a\",h2:\"h2\",p:\"p\",span:\"span\",...n.components};return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsxs)(e.h2,{id:\"introduction\",children:[(0,i.jsx)(e.a,{href:\"#introduction\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,i.jsx)(e.span,{className:\"icon icon-link\"})}),\"Introduction\"]}),(0,i.jsxs)(e.h2,{id:\"gutricious-where-healthy-living-becomes-an-uncharted-adventure\",children:[(0,i.jsx)(e.a,{href:\"#gutricious-where-healthy-living-becomes-an-uncharted-adventure\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,i.jsx)(e.span,{className:\"icon icon-link\"})}),\"Gutricious: Where Healthy Living Becomes an Uncharted Adventure\"]}),(0,i.jsx)(e.p,{children:\"At Gutricious, we are not just changing the rules for healthy living \\u2013 we take you on an adventure into the unexplored depths of your own biology. Our exclusive partnership with a leading microbiome lab offers the most advanced patented microbiome tests available, delivering unmatched precision in personal health insights. Our tests analyse over 100 key health biomarkers, from gut bacteria associated with inflammation to markers of nutrient uptake, providing industry-leading accuracy. This blend of cutting-edge technology, innovative engineering, and personal wellbeing creates an immersive, transformative journey.\"}),(0,i.jsxs)(e.h2,{id:\"our-mission\",children:[(0,i.jsx)(e.a,{href:\"#our-mission\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,i.jsx)(e.span,{className:\"icon icon-link\"})}),\"Our Mission\"]}),(0,i.jsx)(e.p,{children:\"We make understanding the critical role of nutrition in optimising your health engaging, accessible, and entertaining.\"}),(0,i.jsxs)(e.h2,{id:\"unmatched-precision-our-exclusive-partnership\",children:[(0,i.jsx)(e.a,{href:\"#unmatched-precision-our-exclusive-partnership\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,i.jsx)(e.span,{className:\"icon icon-link\"})}),\"Unmatched Precision: Our Exclusive Partnership\"]}),(0,i.jsx)(e.p,{children:\"Our partnership with a leading microbiome lab sets Gutricious apart. You receive the most relevant, effective guidance to optimise your wellbeing.\"}),(0,i.jsxs)(e.h2,{id:\"our-roots-a-fusion-of-brilliance\",children:[(0,i.jsx)(e.a,{href:\"#our-roots-a-fusion-of-brilliance\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,i.jsx)(e.span,{className:\"icon icon-link\"})}),\"Our Roots: A Fusion of Brilliance\"]}),(0,i.jsx)(e.p,{children:\"Gutricious was born from the collective genius of pioneering food scientists, forward-thinking technology experts, and passionate health enthusiasts. Our platform, meticulously developed with expertise in AI, genetic epidemiology, computer science, and nutritional science, utilises advanced analytics to offer personalised dietary recommendations that seamlessly integrate into your life.\"}),(0,i.jsxs)(e.h2,{id:\"our-promise-simplifying-the-complexity-of-health\",children:[(0,i.jsx)(e.a,{href:\"#our-promise-simplifying-the-complexity-of-health\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,i.jsx)(e.span,{className:\"icon icon-link\"})}),\"Our Promise: Simplifying the Complexity of Health\"]}),(0,i.jsx)(e.p,{children:\"We cut through the noise of countless health fads and conflicting advice. Committed to transparency, integrity, and continuous innovation, we design every offering with your wellbeing at the core. We transform complex health data into clear, actionable insights. Our app turns detailed genetic reports into personalised diet plans to help you lose weight, boost energy, improve sleep, manage chronic conditions, and optimise overall health. Interactive tools, in-depth nutritional insights, and engaging content empower you to make informed, long-term lifestyle decisions.\"}),(0,i.jsxs)(e.h2,{id:\"embark-on-an-unprecedented-health-journey\",children:[(0,i.jsx)(e.a,{href:\"#embark-on-an-unprecedented-health-journey\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,i.jsx)(e.span,{className:\"icon icon-link\"})}),\"Embark on an Unprecedented Health Journey\"]}),(0,i.jsx)(e.p,{children:\"Discover how Gutricious makes your health journey joyful and rewarding. Dive into our world of health innovation and see how easy and exciting it can be to optimise your wellbeing.\"}),(0,i.jsxs)(e.h2,{id:\"consistency-at-every-touchpoint\",children:[(0,i.jsx)(e.a,{href:\"#consistency-at-every-touchpoint\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,i.jsx)(e.span,{className:\"icon icon-link\"})}),\"Consistency at Every Touchpoint\"]}),(0,i.jsx)(e.p,{children:\"From our website to our app, from our educational content to our community interactions, we provide a coherent experience that delights, informs, and inspires.\"}),(0,i.jsxs)(e.h2,{id:\"get-started-begin-your-gutricious-journey-today\",children:[(0,i.jsx)(e.a,{href:\"#get-started-begin-your-gutricious-journey-today\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,i.jsx)(e.span,{className:\"icon icon-link\"})}),\"Get Started: Begin Your Gutricious Journey Today\"]}),(0,i.jsxs)(e.p,{children:[\"Are you ready for a life-changing health journey? \",(0,i.jsx)(e.a,{href:\"https://gutricious-home.vercel.app/en#footer\",children:\"Click here\"}),\" to start with Gutricious today \\u2013 your bold first step towards a healthier, more vibrant self. Access personalised diet plans, groundbreaking microbiome insights, and a supportive community, your constant companions on this remarkable journey.\"]}),(0,i.jsxs)(e.h2,{id:\"unveil-a-feast-for-your-eyes\",children:[(0,i.jsx)(e.a,{href:\"#unveil-a-feast-for-your-eyes\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,i.jsx)(e.span,{className:\"icon icon-link\"})}),\"Unveil a Feast for Your Eyes!\"]}),(0,i.jsx)(e.p,{children:\"See how food transforms in our playful animation \\u2013 at Gutricious, healthy eating is delicious and fun!\"})]})}function h(n={}){let{wrapper:e}=n.components||{};return e?(0,i.jsx)(e,{...n,children:(0,i.jsx)(d,{...n})}):d(n)}return x(k);})();\n;return Component;"
+  },
+  "_id": "cookies/en.mdx",
+  "_raw": {
+    "sourceFilePath": "cookies/en.mdx",
+    "sourceFileName": "en.mdx",
+    "sourceFileDir": "cookies",
+    "contentType": "mdx",
+    "flattenedPath": "cookies/en"
+  },
+  "type": "Cookies",
+  "readingTime": {
+    "text": "3 min read",
+    "minutes": 2.14,
+    "time": 128400,
+    "words": 428
+  },
+  "slug": "en",
+  "path": "cookies/en",
+  "filePath": "cookies/en.mdx",
+  "toc": [
+    {
+      "value": "Introduction",
+      "url": "#introduction-1",
+      "depth": 2
+    },
+    {
+      "value": "Gutricious: Where Healthy Living Becomes an Uncharted Adventure",
+      "url": "#gutricious-where-healthy-living-becomes-an-uncharted-adventure",
+      "depth": 2
+    },
+    {
+      "value": "Our Mission",
+      "url": "#our-mission",
+      "depth": 2
+    },
+    {
+      "value": "Unmatched Precision: Our Exclusive Partnership",
+      "url": "#unmatched-precision-our-exclusive-partnership",
+      "depth": 2
+    },
+    {
+      "value": "Our Roots: A Fusion of Brilliance",
+      "url": "#our-roots-a-fusion-of-brilliance",
+      "depth": 2
+    },
+    {
+      "value": "Our Promise: Simplifying the Complexity of Health",
+      "url": "#our-promise-simplifying-the-complexity-of-health",
+      "depth": 2
+    },
+    {
+      "value": "Embark on an Unprecedented Health Journey",
+      "url": "#embark-on-an-unprecedented-health-journey",
+      "depth": 2
+    },
+    {
+      "value": "Consistency at Every Touchpoint",
+      "url": "#consistency-at-every-touchpoint",
+      "depth": 2
+    },
+    {
+      "value": "Get Started: Begin Your Gutricious Journey Today",
+      "url": "#get-started-begin-your-gutricious-journey-today",
+      "depth": 2
+    },
+    {
+      "value": "Unveil a Feast for Your Eyes!",
+      "url": "#unveil-a-feast-for-your-eyes",
+      "depth": 2
+    }
+  ],
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting"
+  }
+}

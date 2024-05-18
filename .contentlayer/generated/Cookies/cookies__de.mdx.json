@@ -1,0 +1,80 @@
+{
+  "body": {
+    "raw": "## Einleitung\n\n## Gutricious: Wo gesundes Leben zu einem unerforschten Abenteuer wird\n\nBei Gutricious ändern wir nicht nur die Spielregeln für gesundes Leben – wir nehmen Sie mit auf ein Abenteuer in die unerforschten Tiefen Ihrer eigenen Biologie. Unsere exklusive Partnerschaft mit einem führenden Mikrobiom-Labor bietet die fortschrittlichsten patentierten Mikrobiom-Tests, die verfügbar sind, und liefert unübertroffene Präzision in persönlichen Gesundheitseinblicken. Unsere Tests analysieren über 100 Schlüssel-Biomarker der Gesundheit, von Darmbakterien, die mit Entzündungen in Verbindung stehen, bis hin zu Markern der Nährstoffaufnahme, und bieten branchenführende Genauigkeit. Diese Mischung aus Spitzentechnologie, innovativer Technik und persönlichem Wohlbefinden schafft eine immersive, transformative Reise.\n\n## Unsere Mission\n\nWir machen das Verständnis der kritischen Rolle der Ernährung bei der Optimierung Ihrer Gesundheit ansprechend, zugänglich und unterhaltsam.\n\n## Unübertroffene Präzision: Unsere Exklusive Partnerschaft\n\nUnsere Partnerschaft mit einem führenden Mikrobiom-Labor hebt Gutricious hervor. Sie erhalten die relevantesten und effektivsten Anleitungen zur Optimierung Ihres Wohlbefindens.\n\n## Unsere Wurzeln: Eine Fusion aus Brillanz\n\nGutricious entstand aus der kollektiven Genialität von wegweisenden Lebensmittelwissenschaftlern, zukunftsorientierten Technologieexperten und leidenschaftlichen Gesundheitsenthusiasten. Unsere Plattform, die sorgfältig mit Expertise in KI, genetischer Epidemiologie, Informatik und Ernährungswissenschaft entwickelt wurde, nutzt fortschrittliche Analysen, um personalisierte Ernährungsempfehlungen zu bieten, die nahtlos in Ihr Leben passen.\n\n## Unser Versprechen: Die Komplexität der Gesundheit vereinfachen\n\nWir durchbrechen das Rauschen unzähliger Gesundheitsmoden und widersprüchlicher Ratschläge. Wir sind der Transparenz, Integrität und kontinuierlichen Innovation verpflichtet, jedes Angebot mit Ihrem Wohlbefinden im Kern zu gestalten. Wir verwandeln komplexe Gesundheitsdaten in klare, handlungsorientierte Erkenntnisse. Unsere App verwandelt detaillierte genetische Berichte in personalisierte Ernährungspläne, die Ihnen beim Abnehmen, Steigern der Energie, Verbessern des Schlafs, Managen von chronischen Zuständen und Optimieren der allgemeinen Gesundheit helfen. Interaktive Werkzeuge, tiefgehende Ernährungseinblicke und fesselnde Inhalte befähigen Sie, informierte, langfristige Lebensstilentscheidungen zu treffen.\n\n## Begeben Sie sich auf eine beispiellose Gesundheitsreise\n\nEntdecken Sie, wie Gutricious Ihre Gesundheitsreise freudig und lohnend macht. Tauchen Sie ein in unsere Welt der Gesundheitsinnovation und sehen Sie, wie einfach und spannend es sein kann, Ihr Wohlbefinden zu optimieren.\n\n## Konsistenz an jedem Kontaktpunkt\n\nVon unserer Webseite bis zu unserer App, von unseren Bildungsinhalten bis zu unseren Community-Interaktionen, bieten wir ein kohärentes Erlebnis, das erfreut, informiert und inspiriert.\n\n## Jetzt starten: Beginnen Sie heute Ihre Gutricious-Reise\n\nSind Sie bereit für eine lebensverändernde Gesundheitsreise? [Klicken Sie hier](https://gutricious-home.vercel.app/de#footer), um heute mit Gutricious zu beginnen – Ihr mutiger erster Schritt zu einem gesünderen, lebendigeren Ich. Greifen Sie auf personalisierte Ernährungspläne, bahnbrechende Mikrobiom-Einblicke und eine unterstützende Gemeinschaft zu, Ihre ständigen Begleiter auf dieser bemerkenswerten Reise.\n\n## Enthüllen Sie ein Fest für Ihre Augen!\n\nSehen Sie, wie sich Essen in unserer spielerischen Animation verwandelt – bei Gutricious ist gesundes Essen kö\n\nstlich und spaßig!\n",
+    "code": "var Component=(()=>{var o=Object.create;var t=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var p=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),k=(i,e)=>{for(var r in e)t(i,r,{get:e[r],enumerable:!0})},a=(i,e,r,h)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of m(e))!b.call(i,s)&&s!==r&&t(i,s,{get:()=>e[s],enumerable:!(h=f(e,s))||h.enumerable});return i};var z=(i,e,r)=>(r=i!=null?o(g(i)):{},a(e||!i||!i.__esModule?t(r,\"default\",{value:i,enumerable:!0}):r,i)),v=i=>a(t({},\"__esModule\",{value:!0}),i);var u=p((G,d)=>{d.exports=_jsx_runtime});var x={};k(x,{default:()=>c,frontmatter:()=>I});var n=z(u()),I=void 0;function l(i){let e={a:\"a\",h2:\"h2\",p:\"p\",span:\"span\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.h2,{id:\"einleitung\",children:[(0,n.jsx)(e.a,{href:\"#einleitung\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Einleitung\"]}),(0,n.jsxs)(e.h2,{id:\"gutricious-wo-gesundes-leben-zu-einem-unerforschten-abenteuer-wird\",children:[(0,n.jsx)(e.a,{href:\"#gutricious-wo-gesundes-leben-zu-einem-unerforschten-abenteuer-wird\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Gutricious: Wo gesundes Leben zu einem unerforschten Abenteuer wird\"]}),(0,n.jsx)(e.p,{children:\"Bei Gutricious \\xE4ndern wir nicht nur die Spielregeln f\\xFCr gesundes Leben \\u2013 wir nehmen Sie mit auf ein Abenteuer in die unerforschten Tiefen Ihrer eigenen Biologie. Unsere exklusive Partnerschaft mit einem f\\xFChrenden Mikrobiom-Labor bietet die fortschrittlichsten patentierten Mikrobiom-Tests, die verf\\xFCgbar sind, und liefert un\\xFCbertroffene Pr\\xE4zision in pers\\xF6nlichen Gesundheitseinblicken. Unsere Tests analysieren \\xFCber 100 Schl\\xFCssel-Biomarker der Gesundheit, von Darmbakterien, die mit Entz\\xFCndungen in Verbindung stehen, bis hin zu Markern der N\\xE4hrstoffaufnahme, und bieten branchenf\\xFChrende Genauigkeit. Diese Mischung aus Spitzentechnologie, innovativer Technik und pers\\xF6nlichem Wohlbefinden schafft eine immersive, transformative Reise.\"}),(0,n.jsxs)(e.h2,{id:\"unsere-mission\",children:[(0,n.jsx)(e.a,{href:\"#unsere-mission\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Unsere Mission\"]}),(0,n.jsx)(e.p,{children:\"Wir machen das Verst\\xE4ndnis der kritischen Rolle der Ern\\xE4hrung bei der Optimierung Ihrer Gesundheit ansprechend, zug\\xE4nglich und unterhaltsam.\"}),(0,n.jsxs)(e.h2,{id:\"un\\xFCbertroffene-pr\\xE4zision-unsere-exklusive-partnerschaft\",children:[(0,n.jsx)(e.a,{href:\"#un\\xFCbertroffene-pr\\xE4zision-unsere-exklusive-partnerschaft\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Un\\xFCbertroffene Pr\\xE4zision: Unsere Exklusive Partnerschaft\"]}),(0,n.jsx)(e.p,{children:\"Unsere Partnerschaft mit einem f\\xFChrenden Mikrobiom-Labor hebt Gutricious hervor. Sie erhalten die relevantesten und effektivsten Anleitungen zur Optimierung Ihres Wohlbefindens.\"}),(0,n.jsxs)(e.h2,{id:\"unsere-wurzeln-eine-fusion-aus-brillanz\",children:[(0,n.jsx)(e.a,{href:\"#unsere-wurzeln-eine-fusion-aus-brillanz\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Unsere Wurzeln: Eine Fusion aus Brillanz\"]}),(0,n.jsx)(e.p,{children:\"Gutricious entstand aus der kollektiven Genialit\\xE4t von wegweisenden Lebensmittelwissenschaftlern, zukunftsorientierten Technologieexperten und leidenschaftlichen Gesundheitsenthusiasten. Unsere Plattform, die sorgf\\xE4ltig mit Expertise in KI, genetischer Epidemiologie, Informatik und Ern\\xE4hrungswissenschaft entwickelt wurde, nutzt fortschrittliche Analysen, um personalisierte Ern\\xE4hrungsempfehlungen zu bieten, die nahtlos in Ihr Leben passen.\"}),(0,n.jsxs)(e.h2,{id:\"unser-versprechen-die-komplexit\\xE4t-der-gesundheit-vereinfachen\",children:[(0,n.jsx)(e.a,{href:\"#unser-versprechen-die-komplexit\\xE4t-der-gesundheit-vereinfachen\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Unser Versprechen: Die Komplexit\\xE4t der Gesundheit vereinfachen\"]}),(0,n.jsx)(e.p,{children:\"Wir durchbrechen das Rauschen unz\\xE4hliger Gesundheitsmoden und widerspr\\xFCchlicher Ratschl\\xE4ge. Wir sind der Transparenz, Integrit\\xE4t und kontinuierlichen Innovation verpflichtet, jedes Angebot mit Ihrem Wohlbefinden im Kern zu gestalten. Wir verwandeln komplexe Gesundheitsdaten in klare, handlungsorientierte Erkenntnisse. Unsere App verwandelt detaillierte genetische Berichte in personalisierte Ern\\xE4hrungspl\\xE4ne, die Ihnen beim Abnehmen, Steigern der Energie, Verbessern des Schlafs, Managen von chronischen Zust\\xE4nden und Optimieren der allgemeinen Gesundheit helfen. Interaktive Werkzeuge, tiefgehende Ern\\xE4hrungseinblicke und fesselnde Inhalte bef\\xE4higen Sie, informierte, langfristige Lebensstilentscheidungen zu treffen.\"}),(0,n.jsxs)(e.h2,{id:\"begeben-sie-sich-auf-eine-beispiellose-gesundheitsreise\",children:[(0,n.jsx)(e.a,{href:\"#begeben-sie-sich-auf-eine-beispiellose-gesundheitsreise\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Begeben Sie sich auf eine beispiellose Gesundheitsreise\"]}),(0,n.jsx)(e.p,{children:\"Entdecken Sie, wie Gutricious Ihre Gesundheitsreise freudig und lohnend macht. Tauchen Sie ein in unsere Welt der Gesundheitsinnovation und sehen Sie, wie einfach und spannend es sein kann, Ihr Wohlbefinden zu optimieren.\"}),(0,n.jsxs)(e.h2,{id:\"konsistenz-an-jedem-kontaktpunkt\",children:[(0,n.jsx)(e.a,{href:\"#konsistenz-an-jedem-kontaktpunkt\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Konsistenz an jedem Kontaktpunkt\"]}),(0,n.jsx)(e.p,{children:\"Von unserer Webseite bis zu unserer App, von unseren Bildungsinhalten bis zu unseren Community-Interaktionen, bieten wir ein koh\\xE4rentes Erlebnis, das erfreut, informiert und inspiriert.\"}),(0,n.jsxs)(e.h2,{id:\"jetzt-starten-beginnen-sie-heute-ihre-gutricious-reise\",children:[(0,n.jsx)(e.a,{href:\"#jetzt-starten-beginnen-sie-heute-ihre-gutricious-reise\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Jetzt starten: Beginnen Sie heute Ihre Gutricious-Reise\"]}),(0,n.jsxs)(e.p,{children:[\"Sind Sie bereit f\\xFCr eine lebensver\\xE4ndernde Gesundheitsreise? \",(0,n.jsx)(e.a,{href:\"https://gutricious-home.vercel.app/de#footer\",children:\"Klicken Sie hier\"}),\", um heute mit Gutricious zu beginnen \\u2013 Ihr mutiger erster Schritt zu einem ges\\xFCnderen, lebendigeren Ich. Greifen Sie auf personalisierte Ern\\xE4hrungspl\\xE4ne, bahnbrechende Mikrobiom-Einblicke und eine unterst\\xFCtzende Gemeinschaft zu, Ihre st\\xE4ndigen Begleiter auf dieser bemerkenswerten Reise.\"]}),(0,n.jsxs)(e.h2,{id:\"enth\\xFCllen-sie-ein-fest-f\\xFCr-ihre-augen\",children:[(0,n.jsx)(e.a,{href:\"#enth\\xFCllen-sie-ein-fest-f\\xFCr-ihre-augen\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Enth\\xFCllen Sie ein Fest f\\xFCr Ihre Augen!\"]}),(0,n.jsx)(e.p,{children:\"Sehen Sie, wie sich Essen in unserer spielerischen Animation verwandelt \\u2013 bei Gutricious ist gesundes Essen k\\xF6\"}),(0,n.jsx)(e.p,{children:\"stlich und spa\\xDFig!\"})]})}function c(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(l,{...i})}):l(i)}return v(x);})();\n;return Component;"
+  },
+  "_id": "cookies/de.mdx",
+  "_raw": {
+    "sourceFilePath": "cookies/de.mdx",
+    "sourceFileName": "de.mdx",
+    "sourceFileDir": "cookies",
+    "contentType": "mdx",
+    "flattenedPath": "cookies/de"
+  },
+  "type": "Cookies",
+  "readingTime": {
+    "text": "3 min read",
+    "minutes": 2.165,
+    "time": 129900,
+    "words": 433
+  },
+  "slug": "de",
+  "path": "cookies/de",
+  "filePath": "cookies/de.mdx",
+  "toc": [
+    {
+      "value": "Einleitung",
+      "url": "#einleitung",
+      "depth": 2
+    },
+    {
+      "value": "Gutricious: Wo gesundes Leben zu einem unerforschten Abenteuer wird",
+      "url": "#gutricious-wo-gesundes-leben-zu-einem-unerforschten-abenteuer-wird",
+      "depth": 2
+    },
+    {
+      "value": "Unsere Mission",
+      "url": "#unsere-mission",
+      "depth": 2
+    },
+    {
+      "value": "Unübertroffene Präzision: Unsere Exklusive Partnerschaft",
+      "url": "#unübertroffene-präzision-unsere-exklusive-partnerschaft",
+      "depth": 2
+    },
+    {
+      "value": "Unsere Wurzeln: Eine Fusion aus Brillanz",
+      "url": "#unsere-wurzeln-eine-fusion-aus-brillanz",
+      "depth": 2
+    },
+    {
+      "value": "Unser Versprechen: Die Komplexität der Gesundheit vereinfachen",
+      "url": "#unser-versprechen-die-komplexität-der-gesundheit-vereinfachen",
+      "depth": 2
+    },
+    {
+      "value": "Begeben Sie sich auf eine beispiellose Gesundheitsreise",
+      "url": "#begeben-sie-sich-auf-eine-beispiellose-gesundheitsreise",
+      "depth": 2
+    },
+    {
+      "value": "Konsistenz an jedem Kontaktpunkt",
+      "url": "#konsistenz-an-jedem-kontaktpunkt",
+      "depth": 2
+    },
+    {
+      "value": "Jetzt starten: Beginnen Sie heute Ihre Gutricious-Reise",
+      "url": "#jetzt-starten-beginnen-sie-heute-ihre-gutricious-reise",
+      "depth": 2
+    },
+    {
+      "value": "Enthüllen Sie ein Fest für Ihre Augen!",
+      "url": "#enthüllen-sie-ein-fest-für-ihre-augen",
+      "depth": 2
+    }
+  ],
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting"
+  }
+}
