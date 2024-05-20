@@ -16,6 +16,7 @@ import Modal from 'react-responsive-modal'
 import CookiesModal from '../CookiesModal/CookiesModal'
 import ScrollTopAndComment from '../ScrollTopAndComment'
 import { IMAGE_URL } from 'utils/image_url'
+import { routes } from 'utils/routes'
 
 export const Navigation = ({
   section,
@@ -190,7 +191,7 @@ export const Navigation = ({
                   </button>
                 </div>
               </div>
-              <ul className="navigation__list flex select-none flex-col">
+              {/* <ul className="navigation__list flex select-none flex-col">
                 <Link href="/" className="navigation__item !mx-auto inline-block w-max ">
                   <span className="navigation__link">{t('Home')}</span>
                 </Link>
@@ -218,6 +219,47 @@ export const Navigation = ({
                 <Link
                   href="/privacy-policy"
                   className="navigation__item !mx-auto inline-block w-max"
+                >
+                  <span className="navigation__link">{t('Privacy_Policy')}</span>
+                </Link>
+            </ul> */}
+              <ul className="navigation__list flex flex-col">
+                <Link
+                  href={routes[selectedLanguage]['home']}
+                  className="navigation__item inline-block"
+                >
+                  <span className="navigation__link">{t('Home')}</span>
+                </Link>
+                <button
+                  onClick={() => {
+                    setOpenModal(!openModal)
+                    setNavOpen(false)
+                  }}
+                  className="navigation__item !mx-auto inline-block w-max cursor-pointer"
+                >
+                  <span className="navigation__link">{t('About_Us')}</span>
+                </button>
+                <Link
+                  href={routes[selectedLanguage]['about-us']}
+                  className="navigation__item inline-block"
+                >
+                  <span className="navigation__link">{t('Our_Studies')}</span>
+                </Link>
+                <Link
+                  href={routes[selectedLanguage]['terms-of-use']}
+                  className="navigation__item inline-block"
+                >
+                  <span className="navigation__link">{t('Terms_of_Service')}</span>
+                </Link>
+                <Link
+                  href={routes[selectedLanguage]['cookies'] as any}
+                  className="navigation__item inline-block"
+                >
+                  <span className="navigation__link">{t('Cookies_Policy')}</span>
+                </Link>
+                <Link
+                  href={routes[selectedLanguage]['privacy']}
+                  className="navigation__item inline-block"
                 >
                   <span className="navigation__link">{t('Privacy_Policy')}</span>
                 </Link>
