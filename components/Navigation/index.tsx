@@ -220,7 +220,7 @@ export const Navigation = ({
                   <span className="navigation__link">{t('Privacy_Policy')}</span>
                 </Link>
             </ul> */}
-              <ul className="navigation__list flex flex-col">
+              <ul className="navigation__list flex select-none  flex-col">
                 <Link
                   href={routes[selectedLanguage]['home']}
                   className="navigation__item inline-block"
