@@ -75,7 +75,8 @@ export const Navigation = ({
             width={120}
             loader={({ src }) => src}
             objectFit="contain"
-            className=" pointer-events-auto h-[110px] w-[120px] object-contain 2xl:h-[100px] 2xl:w-[150px]"
+            onClick={() => router.push('/')}
+            className=" pointer-events-auto h-[110px] w-[120px] cursor-pointer object-contain 2xl:h-[100px] 2xl:w-[150px]"
             src={`${IMAGE_URL}/assets/${section === 'dark' ? 'day' : 'night'}/logo.webp`}
           ></Image>
           <div
@@ -221,13 +222,13 @@ export const Navigation = ({
                   <span className="navigation__link">{t('Privacy_Policy')}</span>
                 </Link>
             </ul> */}
-              <ul className="navigation__list flex select-none  flex-col">
-                <Link
-                  href={routes[selectedLanguage]['home']}
-                  className="navigation__item inline-block"
+              <ul className="navigation__list flex select-none flex-col">
+                <button
+                  onClick={() => router.push(routes[selectedLanguage]['home'])}
+                  className="navigation__item !mx-auto inline-block w-max cursor-pointer"
                 >
                   <span className="navigation__link">{t('Home')}</span>
-                </Link>
+                </button>
                 <button
                   onClick={() => {
                     setOpenModal(!openModal)
@@ -237,30 +238,30 @@ export const Navigation = ({
                 >
                   <span className="navigation__link">{t('About_Us')}</span>
                 </button>
-                <Link
-                  href={routes[selectedLanguage]['about-us']}
-                  className="navigation__item inline-block"
+                <button
+                  onClick={() => router.push(routes[selectedLanguage]['our-studies'])}
+                  className="navigation__item !mx-auto inline-block w-max cursor-pointer"
                 >
                   <span className="navigation__link">{t('Our_Studies')}</span>
-                </Link>
-                <Link
-                  href={routes[selectedLanguage]['terms-of-use']}
-                  className="navigation__item inline-block"
+                </button>
+                <button
+                  onClick={() => router.push(routes[selectedLanguage]['terms-of-use'])}
+                  className="navigation__item !mx-auto inline-block w-max cursor-pointer"
                 >
                   <span className="navigation__link">{t('Terms_of_Service')}</span>
-                </Link>
-                <Link
-                  href={routes[selectedLanguage]['cookies'] as any}
-                  className="navigation__item inline-block"
+                </button>
+                <button
+                  onClick={() => router.push(routes[selectedLanguage]['cookies'])}
+                  className="navigation__item !mx-auto inline-block w-max cursor-pointer"
                 >
                   <span className="navigation__link">{t('Cookies_Policy')}</span>
-                </Link>
-                <Link
-                  href={routes[selectedLanguage]['privacy']}
-                  className="navigation__item inline-block"
+                </button>
+                <button
+                  onClick={() => router.push(routes[selectedLanguage]['privacy'])}
+                  className="navigation__item !mx-auto inline-block w-max cursor-pointer"
                 >
                   <span className="navigation__link">{t('Privacy_Policy')}</span>
-                </Link>
+                </button>
               </ul>
             </nav>
           </div>
