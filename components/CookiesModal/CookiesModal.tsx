@@ -46,26 +46,26 @@ const CookiesModal = ({ modalIsOpen, setModalIsOpen, cookiesData }: any) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(cookiesData.jsonLd) }}
       />
-      <div
-        className="close-cookie-modal fixed right-14 top-14 z-50 cursor-pointer"
-        onClick={() => setModalIsOpen(false)}
-      >
-        <Image
-          src={`${IMAGE_URL}/assets/images/play-game-green.svg`}
-          alt="game"
-          loader={({ src }) => src}
-          height={70}
-          width={100}
-          className="image-green h-[70px] w-[100px] object-contain"
-        ></Image>
-        <Image
-          src={`${IMAGE_URL}/assets/images/play-game-yellow.svg`}
-          alt="game"
-          loader={({ src }) => src}
-          height={70}
-          width={100}
-          className="image-yellow h-[70px] w-[100px] object-contain"
-        ></Image>
+
+      <div className="custom-container flex justify-end">
+        <div className="close-cookie-modal  cursor-pointer " onClick={() => setModalIsOpen(false)}>
+          <Image
+            src={`${IMAGE_URL}/assets/images/play-game-green.svg`}
+            alt="game"
+            loader={({ src }) => src}
+            height={70}
+            width={100}
+            className="image-green h-[70px] w-[100px] object-contain"
+          ></Image>
+          <Image
+            src={`${IMAGE_URL}/assets/images/play-game-yellow.svg`}
+            alt="game"
+            loader={({ src }) => src}
+            height={70}
+            width={100}
+            className="image-yellow h-[70px] w-[100px] object-contain"
+          ></Image>
+        </div>
       </div>
 
       <SimpleLayout>
