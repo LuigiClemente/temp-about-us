@@ -55,7 +55,7 @@ export const Navigation = ({
     console.log({ newPathName })
 
     // Use a full path for redirection to avoid locale prefix issues
-    document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000; samesite=lax`;
+    document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000; samesite=lax`
 
     router.push(`${newPathName}`)
   }
