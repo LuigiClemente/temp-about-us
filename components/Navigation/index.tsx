@@ -50,16 +50,13 @@ export const Navigation = ({
   const [selectedLanguage, setSelectedLanguage] = useState(localActive)
   const [openModal, setOpenModal] = useState(true)
   const changeLanguage = (newLocale) => {
-    let newPathName = pathName
-    if (pathName.includes('/blog/')) {
-      const regex = new RegExp(`\/(${locales.join('|')})$`)
-
-      newPathName = pathName.replace(regex, `/${newLocale}`)
-    }
+    let newPathName = routes[newLocale]['about-us']
 
     console.log({ newPathName })
 
-    router.push(newPathName, { locale: newLocale })
+    // Use a full path for redirection to avoid locale prefix issues
+
+    router.push(`${newPathName}`)
   }
 
   return (
