@@ -40,7 +40,7 @@ const IframeFood = () => {
       <div className="z-50 h-full w-full">
         <iframe
           id="food-iframe"
-          src={`https://food-animation-navy.vercel.app/foodGallery/FoodGallery.htm`}
+          src={`https://animation.gutricious.com/foodGallery/FoodGallery.htm`}
           scrolling="yes"
           frameBorder="0"
           allowFullScreen={true}
