@@ -75,7 +75,7 @@ export const Navigation = ({
             width={120}
             loader={({ src }) => src}
             objectFit="contain"
-            onClick={() => router.push('/')}
+            onClick={() => router.push(`${routes[localActive]['home']}`)}
             className=" pointer-events-auto h-[110px] w-[120px] cursor-pointer object-contain 2xl:h-[100px] 2xl:w-[150px]"
             src={`${IMAGE_URL}/assets/${section === 'dark' ? 'day' : 'night'}/logo.webp`}
           ></Image>
