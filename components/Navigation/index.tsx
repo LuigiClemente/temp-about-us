@@ -94,7 +94,7 @@ export const Navigation = ({
               padding={10}
               onClickOutside={() => setLangOpen(false)}
               content={({ position, nudgedLeft, nudgedTop }) => (
-                <div className="languages-box">
+                <div className="languages-box" onClick={() => setLangOpen(false)}>
                   {languages.map((lang) => (
                     <div
                       key={lang.code}
