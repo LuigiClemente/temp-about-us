@@ -49,7 +49,11 @@ export default function RootLayout({
     >
       {/* <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png" /> */}
-      <link rel="icon" type="image/x-icon" href="/static/favicons/falvicon.ico" />
+      <link
+        rel="icon"
+        type="image/x-icon"
+        href="https://res.cloudinary.com/dizm8txou/image/upload/v1715953409/about-us/static/favicons/falvicon.ico"
+      />
 
       <link rel="manifest" href="/static/favicons/site.webmanifest" />
       <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#5bbad5" />
