@@ -48,7 +48,10 @@ const CookiesModal = ({ modalIsOpen, setModalIsOpen, cookiesData }: any) => {
       />
 
       <div className="custom-container flex justify-end">
-        <div className="close-cookie-modal  cursor-pointer " onClick={() => setModalIsOpen(false)}>
+        <div
+          className="close-cookie-modal  mt-5 cursor-pointer md:mt-0"
+          onClick={() => setModalIsOpen(false)}
+        >
           <Image
             src={`${IMAGE_URL}/assets/images/play-game-green.svg`}
             alt="game"

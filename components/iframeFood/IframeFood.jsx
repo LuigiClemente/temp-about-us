@@ -37,7 +37,7 @@ const IframeFood = () => {
   return (
     <>
       {/* {showAnimation && ( */}
-      <div className="z-50 h-full w-full">
+      <div className="z-50 h-full w-full bg-yellow-300">
         <iframe
           id="food-iframe"
           src={`https://animation.gutricious.com/foodGallery/FoodGallery.htm`}

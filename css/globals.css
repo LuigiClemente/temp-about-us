@@ -34,6 +34,7 @@ body {
   /* overflow-x: hidden; */
   position: relative;
   scroll-behavior: smooth;
+  background: red;
 }
 
 html {
@@ -892,4 +893,7 @@ html.ReactModal__Html--open {
 }
 .close-cookie-modal:hover .image-yellow {
   display: block;
+}
+#food-iframe {
+  min-height: calc(100vh - 0px);
 }
