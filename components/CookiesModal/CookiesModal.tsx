@@ -49,7 +49,7 @@ const CookiesModal = ({ modalIsOpen, setModalIsOpen, cookiesData }: any) => {
 
       <div className="custom-container flex justify-end">
         <div
-          className="close-cookie-modal  mt-5 cursor-pointer md:mt-0"
+          className="close-cookie-modal  mt-10 cursor-pointer md:mt-0"
           onClick={() => setModalIsOpen(false)}
         >
           <Image
