@@ -541,6 +541,8 @@ button[data-rcs='handle-container'] {
 
 .hamburger-container {
   min-height: 42.5px;
+  display: grid;
+  place-items: center;
 }
 
 .navigation__checkbox {
